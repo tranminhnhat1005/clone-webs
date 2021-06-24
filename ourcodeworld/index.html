@@ -1,0 +1,1469 @@
+<!DOCTYPE html><html lang="en-US"><head>
+        <title>Welcome to Our Code World | Our Code World</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+        <link rel="icon" type="image/png" href="images/favicon-196x196.png" sizes="196x196">
+        <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="images/favicon-128.png" sizes="128x128">
+        <meta name="msapplication-TileImage" content="https://cdn.ourcodeworld.com/assets/icons/mstile-144x144.png">
+        <meta name="msapplication-square70x70logo" content="https://cdn.ourcodeworld.com/assets/icons/mstile-70x70.png">
+        <meta name="msapplication-square150x150logo" content="https://cdn.ourcodeworld.com/assets/icons/mstile-150x150.png ">
+        <meta name="msapplication-wide310x150logo" content="https://cdn.ourcodeworld.com/assets/icons/mstile-310x150.png">
+        <meta name="msapplication-square310x310logo" content="https://cdn.ourcodeworld.com/assets/icons/mstile-310x310.png"><meta name="author" content="Our Code World - Carlos Delgado">
+    <meta property="og:site_name" content="Our Code World">
+    <meta property="og:title" content="Our Code World | A world of code, closer than you think">
+    <meta property="og:type" content="Website">
+    <link rel="canonical" href="https://ourcodeworld.com">
+    <meta name="description" property="og:description" content="Our code world provides you with a lot of interesting articles and solutions for your daily development life">
+    <meta name="keywords" content="development, free, open source, articles, website, php, java, javascript, symfony, tutorials, tops">
+    <meta name="rights" content="Our Code World - Carlos Delgado"><link href="css/css.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style-ourcodeworld.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="search" type="application/opensearchdescription+xml" title="Welcome to Our Code World" href="/opensearch.xml">
+        <link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css"><!-- Global site tag (gtag.js) - Google Analytics --> <script src="js/osd.js"></script><script src="js/cookie.js"></script><script src="js/show_ads_impl.js" id="google_shimpl"></script><script type="text/javascript" async src="js/analytics.js"></script><script type="text/javascript" async src="js_2"></script><script async src="js_1"></script> <script>
+    function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-112789410-1");
+</script>
+<style>
+            .fa-svg-icon {
+                display: inline-flex;
+                align-self: center;
+                fill: #fff;
+            }
+
+            .fa-svg-icon svg {
+                height:1em;
+                width:1em;
+            }
+
+            .fa-svg-icon.svg-baseline svg {
+                top: .125em;
+                position: relative;
+            }
+        </style>
+        <script src="js/gdpr.en_US.js" defer></script>
+        <script src="js/jquery.min.js" defer></script>
+        <script src="js/jquery-migrate-3.3.2.min.js" defer></script>
+        <script src="js/bootstrap.bundle.min.js" defer></script>
+        <script src="js/init.js" defer></script>
+        <script src="js/cookieconsent.min.js" defer></script>
+        <script>
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#edeff5",
+                            "text": "#000000"
+                        },
+                        "button": {
+                            "background": "#03a9f4"
+                        }
+                    },
+                    "theme": "edgeless",
+                    "position": "bottom-right",
+                    "content": {
+                        "message": "Our Code World uses cookies to ensure you get the best experience on our website.",
+                        "href": "https://ourcodeworld.com/privacy-policy",
+                        "dismiss": "Got it !",
+                        "link": "Learn more"
+                    }
+                })
+            });
+        </script>
+        
+                    <script type="text/javascript" async src="js/bsa.js"></script><meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AookgM0K6zABiuRTZwpn+R95G2CKmUH/2+zf2kS/QpMlVZ6HTI6QekeLkrJyxeIi62p2ejcQTF464pkdlx0Nwg0AAABmeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJUcnVzdFRva2VucyIsImV4cGlyeSI6MTYzNDA4MzE5OSwiaXNTdWJkb21haW4iOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AookgM0K6zABiuRTZwpn+R95G2CKmUH/2+zf2kS/QpMlVZ6HTI6QekeLkrJyxeIi62p2ejcQTF464pkdlx0Nwg0AAABmeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJUcnVzdFRva2VucyIsImV4cGlyeSI6MTYzNDA4MzE5OSwiaXNTdWJkb21haW4iOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async src="AGSKWxWmBbzl7ophyRKqlP_nvRNhTipT36-VKd1LgOULASoTU2GZnagvBDeYFHCesPGueRjjbMX1hybNqWHWQsRPMFk%3D"></script><script async src="AGSKWxX0gf8Jo_obziYW39rZ7-isb4HK-2tKVZvI4cxVKf4roMYHfVLmvBSx1AAeUKViLCCUo2cTEApWrHVFSEbtPfc%3D"></script><link rel="preload" href="https://adservice.google.com.vn/adsid/integrator.js?domain=ourcodeworld.com" as="script"><script type="text/javascript" src="js/integrator.js"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=ourcodeworld.com" as="script"><script type="text/javascript" src="js/integrator_1.js"></script><script async src="AGSKWxVvlFiVx8wCodaAPAhzcU4uhllX-lbassgFjRxIjIttb50Y_0GVtyyrdqbwZAnaGDEsI0J-XxWXa1Wg5dipCd_D87tAiPx2_cvL5EU0CjiCdogUFlNucSkEj8aoMGDOJwLuuwo1fSKBSLJGEzQSwakdOgM_ZCPX6RxSgnt7ypEfStHwKgZTvsfmsirm"></script><style></style><style>@-webkit-keyframes marqueeAnimation-8538951  { 100%  {transform:translateX(-2170.11px)}}</style><meta http-equiv="origin-trial" content="A+b/H0b8RPXNaJgaNFpO0YOFuGK6myDQXlwnJB3SwzvNMfcndat4DZYMrP4ClJIzYWo3/yP2S+8FTZ/lpqbPAAEAAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="A9ZgbRtm4pU3oZiuNzOsKcC8ppFSZdcjP2qYcdQrFKVzkmiWH1kdYY1Mi9x7G8+PS8HV9Ha9Cz0gaMdKsiVZIgMAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxL6oBxcpn5rQDPKSAs+d0oxNyJYq2/4esBUh3Yx5z8QfcLu+AU8iFCXYRcr/CEEfDnkxxLTsvXPJFQBxHfvkgMAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A9KPtG5kl3oLTk21xqynDPGQ5t18bSOpwt0w6kGa6dEWbuwjpffmdUpR3W+faZDubGT+KIk2do0BX2ca16x8qAcAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AookgM0K6zABiuRTZwpn+R95G2CKmUH/2+zf2kS/QpMlVZ6HTI6QekeLkrJyxeIi62p2ejcQTF464pkdlx0Nwg0AAABmeyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJUcnVzdFRva2VucyIsImV4cGlyeSI6MTYzNDA4MzE5OSwiaXNTdWJkb21haW4iOnRydWV9"><meta http-equiv="origin-trial" content="A3HucHUo1oW9s+9kIKz8mLkbcmdaj5lxt3eiIMp1Nh49dkkBlg1Fhg4Fd/r0vL69mRRA36YutI9P/lJUfL8csQoAAACFeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A0OysezhLoCRYomumeYlubLurZTCmsjTb087OvtCy95jNM65cfEsbajrJnhaGwiTxhz38ZZbm+UhUwQuXfVPTg0AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="AxoOxdZQmIoA1WeAPDixRAeWDdgs7ZtVFfH2y19ziTgD1iaHE5ZGz2UdSjubkWvob9C5PrjUfkWi4ZSLgWk3Xg8AAACLeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A7+rMYR5onPnACrz+niKSeFdH3xw1IyHo2AZSHmxrofRk9w4HcQPMYcpBUKu6OQ6zsdxf4m/vqa6tG6Na4OLpAQAAAB4eyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjI2MjIwNzk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwfG8hAcHnPa/kJ1Co0EvG/K0F9l1s2JZGiDLt2mhC3QI5Fh4qmsmSwrWObZFbRC9ieDaSLU6lHRxhGUF/i9sgoAAACBeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AwQ7dCmHkvR6FuOFxAuNnktYSQrGbL4dF+eBkrwNLALc69Wr//PnO1yzns3pjUoCaYbKHtVcnng2hU+8OUm0PAYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AysVDPGQTLD/Scn78x4mLwB1tMfje5jwUpAAzGRpWsr1NzoN7MTFhT3ClmImi2svDZA7V6nWGIV8YTPsSRTe0wYAAACHeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW50ZXJlc3RDb2hvcnRBUEkiLCJleHBpcnkiOjE2MjYyMjA3OTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async src="AGSKWxXYhfEghVxyeCHkBHGhqN4JFTA6OBuNcE6eGl--_f6VFVpCtmSEOQiRkmdEHEyDW2bFrG_m-XNwTOQF407QivN79wAIGm21QviudIZ5DRNCCELio4lL7gNKiBRcdkcPVsQ_WD2V2UHD9JOeP-WKyeRx5zc_nu7q64yzGjnfF_Er9u-oUTzOiL96gWL1"></script><div id="_bsa_srv-CK7DK53I_0"></div><link rel="preload" href="https://adservice.google.com.vn/adsid/integrator.js?domain=ourcodeworld.com" as="script"><script type="text/javascript" src="js/integrator.js"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=ourcodeworld.com" as="script"><script type="text/javascript" src="js/integrator_1.js"></script><link rel="preload" href="https://adservice.google.com.vn/adsid/integrator.js?domain=ourcodeworld.com" as="script"><script type="text/javascript" src="js/integrator.js"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=ourcodeworld.com" as="script"><script type="text/javascript" src="js/integrator_1.js"></script></head>
+    <body data-google-affiliate-annotated="1"><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-floating cc-type-info cc-theme-edgeless cc-bottom cc-right cc-color-override--1657739092 " style><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">Our Code World uses cookies to ensure you get the best experience on our website. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://ourcodeworld.com/privacy-policy" rel="noopener noreferrer nofollow" target="_blank">Learn more</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it !</a></div><!--googleon: all--></div>
+        <div style="display:none" id="sbbhscc"></div>
+          <script type="text/javascript">
+            var sbbvscc='';
+            var sbbgscc='';
+            function genPid() {return String.fromCharCode(119)+String.fromCharCode(77) ; };
+          </script>
+        <div id="sbbfrcc" style="position: absolute; top: -10px; left: 30px; font-size:1px"><img src="sbbi"><iframe id="SBBCrossIframe" title="SBBCrossIframe" lang="en" aria-hidden="true" scrolling="NO" src="sbbi.html" style="visibility: hidden; border: 0px; height: 1px; width: 0px;"></iframe></div>
+  <script type="text/javascript">(function(XHR){var open=XHR.prototype.open;var send=XHR.prototype.send;var parser=document.createElement('a');XHR.prototype.open=function(method, url, async, user, pass){if(typeof async=='undefined'){async=true;}parser.href=url;if(parser.host==''){parser.href=parser.href;}this.ajax_hostname=parser.hostname;open.call(this, method, url, async, user, pass);};XHR.prototype.send=function(data){if(location.hostname==this.ajax_hostname)this.setRequestHeader("X-MOD-SBB-CTYPE", "xhr");send.call(this, data);}})(XMLHttpRequest);if(typeof(fetch)!="undefined"){var nsbbfetch=fetch;fetch=function(url, init){if(typeof(url)==="object" && typeof(url.url)==="string"){init={method: url.method, mode: url.mode, cache: url.cache, credentials: url.credentials, headers: url.headers, body: url.body};url=url.url;}function sbbSd(url, domain){var parser=document.createElement('a');parser.href=url;if(parser.host==''){parser.href=parser.href;}return parser.hostname==location.hostname;}if(sbbSd(url, document.domain)){init=typeof init !=='undefined' ? init :{};if(typeof(init.headers)==="undefined"){init.headers={};}init.headers['X-MOD-SBB-CTYPE']='fetch';}return nsbbfetch(url, init);};}function sbbgc(check_name){var start=document.cookie.indexOf(check_name+"=");var oVal='';var len=start+check_name.length+1;if((!start)&&(document.cookie.substring(0,check_name.length)!=check_name)){oVal='';}else if(start==-1){oVal='';}else{var end=document.cookie.indexOf(';',len);if(end==-1)end=document.cookie.length;var oVal=document.cookie.substring(len,end);};return oVal;}function addmg(inm,ext){var primgobj=document.createElement('IMG');primgobj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+"/sbbi/?sbbpg="+inm+(ext?"&"+ext:"");var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(primgobj);};function addprid(prid){var oldVal=sbbgc("PRLST");if((oldVal.indexOf(prid)==-1)&&(oldVal.split('/').length<5)){if(oldVal!=''){oldVal+='/';}document.cookie='PRLST='+oldVal+escape(prid)+';path=/; SameSite=Lax;';}}var sbbeccf=function(){this.sp3="jass";this.sf1=function(vd){return sf2(vd)+32;};var sf2=function(avd){return avd*12;};this.sf4=function(yavd){return yavd+2;};var strrp=function(str, key, value){if(str.indexOf('&'+key+'=')> -1 || str.indexOf(key+'=')==0){var idx=str.indexOf('&'+key+'=');if(idx==-1)idx=str.indexOf(key+'=');var end=str.indexOf('&', idx+1);var newstr;if(end !=-1)newstr=str.substr(0, idx)+str.substr(end+(idx ? 0 : 1))+'&'+key+'='+value;else newstr=str.substr(0, idx)+'&'+key+'='+value;return newstr;}else return str+'&'+key+'='+value;};var strgt=function(name, text){if(typeof text !='string')return "";var nameEQ=name+"=";var ca=text.split(/[;&]/);for(var i=0;i < ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1, c.length);if(c.indexOf(nameEQ)==0)return c.substring(nameEQ.length, c.length);}return "";};this.sfecgs={sbbgh:function(){var domain=document.location.host;if(domain.indexOf('www.')==0)domain=domain.replace('www.', '');return domain;}, f:function(name, value){var fv="";if(window.globalStorage){var host=this.sbbgh();try{if(typeof(value)!="undefined")globalStorage[host][name]=value;else{fv=globalStorage[host][name];if(typeof(fv.toString)!="undefined")fv=fv.toString();}}catch(e){}}return fv;}, name:"sbbrf"};this.sfecls={f:function(name, value){var fv="";try{if(window.localStorage){if(typeof(value)!="undefined")localStorage.setItem(name, value);else{fv=localStorage.getItem(name);if(typeof(fv.toString)!="undefined")fv=fv.toString();}}}catch(e){}return fv;}, name:"sbbrf"};this.sbbcv=function(invl){try{var invalArr=invl.split("-");if(invalArr.length>1){if(invalArr[0]=="A"||invalArr[0]=="D"){invl=invalArr[1];}else invl="";}if(invl==null||typeof(invl)=="undefined"||invl=="falseImgUT"||invl=="undefined"||invl=="null"||invl!=encodeURI(invl))invl="";if(typeof(invl).toLowerCase()=="string")if(invl.length>20)if(invl.substr(0,2)!="h4")invl="";}catch(ex){invl="";}return invl;};this.sbbsv=function(fv){for(var elm in this){if(this[elm].name=="sbbrf"){this[elm].f("altutgv2",fv);}}document.cookie="UTGv2="+fv+';expires=Tue, 21-Dec-21 10:42:16 GMT;path=/; SameSite=Lax;';};this.sbbgv=function(){var valArr=Array();var currVal="";for(var elm in this){if(this[elm].name=="sbbrf"){currVal=this[elm].f("altutgv2");currVal=this.sbbcv(currVal);if(currVal!="")valArr[currVal]=(typeof(valArr[currVal])!="undefined"?valArr[currVal]+1:1);}}var lb=0;var fv="";for(var val in valArr){if(valArr[val]>lb){fv=val;lb=valArr[val]}}if(fv=="")fv=sbbgc("UTGv2");fv=this.sbbcv(fv);if(fv!="")this.sbbsv(fv);else this.sbbsv("D-h4ddcefce6236f06e43f11b16a86cac63298");return fv;};};function m2vr(m1,m2){var i=0;var rc="";var est="ghijklmnopqrstuvwyz";var rnum;var rpl;var charm1=m1.charAt(i);var charm2=m2.charAt(i);while(charm1!=""||charm2!=""){rnum=Math.floor(Math.random()* est.length);rpl=est.substring(rnum,rnum+1);rc+=(charm1==""?rpl:charm1)+(charm2==""?rpl:charm2);i++;charm1=m1.charAt(i);charm2=m2.charAt(i);}return rc;}function sbbls(prid){try{var eut=sbbgc("UTGv2");window.sbbeccfi=new sbbeccf();window.sbbgs=sbbeccfi.sbbgv();if(eut!=sbbgs && sbbgs!="" && typeof(sbbfcr)=="undefined"){addmg('utMedia',"vii="+m2vr("2f0ccae1fcdd2e7af58dfd4789e12390",sbbgs));}var sbbiframeObj=document.createElement('IFRAME');var dfx=new Date();sbbiframeObj.id='SBBCrossIframe';sbbiframeObj.title='SBBCrossIframe';sbbiframeObj.tabindex='-1';sbbiframeObj.lang='en';sbbiframeObj.style.visibility='hidden';sbbiframeObj.setAttribute('aria-hidden', 'true');sbbiframeObj.style.border='0px';if(document.all){sbbiframeObj.style.position='absolute';sbbiframeObj.style.top='-1px';sbbiframeObj.style.height='1px';sbbiframeObj.style.width='28px';}else{sbbiframeObj.style.height='1px';sbbiframeObj.style.width='0px';}sbbiframeObj.scrolling="NO";sbbiframeObj.src=window.location.protocol+"//"+window.location.hostname+(window.location.port && window.location.port!=80 ? ':'+window.location.port: '')+'/sbbi/?sbbpg=sbbShell&gprid='+prid + '&sbbgs='+sbbgs+'&ddl='+(Math.round(dfx.getTime()/1000)-1624531336)+'';var sbbDiv=document.getElementById('sbbfrcc');sbbDiv.appendChild(sbbiframeObj);}catch(ex){;}}try{var y=unescape(sbbvscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));document.getElementById('sbbhscc').innerHTML=y;var x=unescape(sbbgscc.replace(/^<\!\-\-\s*|\s*\-\->$/g,''));}catch(e){x='function genPid(){return "jser";}';}try{if(window.gprid==undefined)document.write('<'+'script type="text/javascri'+'pt">'+x+"var gprid=genPid();addprid(gprid);sbbls(gprid);<"+"/script>");}catch(e){addprid("dwer");}</script><script type="text/javascript">var gprid=genPid();addprid(gprid);sbbls(gprid);</script>
+        <div class="site-wrapper clearfix">
+            <div class="header-mobile clearfix" id="header-mobile">
+                <div class="header-mobile__logo">
+                    <a href="/">
+                        <img src="fonts/ocw_logo_symbol.svg" alt="Our Code World" class="header-mobile__logo-img">
+                    </a>
+                </div>
+                <div class="header-mobile__inner"><a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a> <span class="header-mobile__search-icon" id="header-mobile__search-icon"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></span></span></div>
+            <div class="header-search-form">
+                                <form action="/search" id="mobile-search-form" class="search-form">
+                                    <input type="text" class="form-control header-mobile__search-control" name="q" placeholder="Enter your search here...
+">
+                                    <button type="submit" class="header-mobile__search-submit"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></span></button>
+                                </form>
+                            </div></div>
+            <header class="header header--layout-3">
+                <div class="header__top-bar clearfix">
+                    <div class="container">
+                        <div class="header__top-bar-inner">
+                            <ul class="social-links social-links--inline social-links--main-nav social-links--top-bar">
+                                <li class="social-links__item">
+                                    <a href="https://www.facebook.com/ourcodeworld" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Facebook"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"/></svg></span></a>
+                                </li>
+                                <li class="social-links__item">
+                                    <a href="https://twitter.com/ourcodeworld" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Twitter"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></span></a>
+                                </li>
+                                <li class="social-links__item">
+                                    <a href="https://github.com/ourcodeworld" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Github"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"/></svg></span></a>
+                                </li>
+                                <li class="social-links__item">
+                                    <a href="https://www.youtube.com/ourcodeworld?sub_confirmation=1" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="YouTube"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"/></svg></span></a>
+                                </li>
+                                <li class="social-links__item">
+                                    <a href="https://www.instagram.com/ourcodeworld/" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Instagram"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"/></svg></span></a>
+                                </li>
+                            </ul>
+                            <ul class="nav-account">
+                                <li class="nav-account__item has-children"><span class="main-nav__toggle"></span>
+                                    <a href="javascript:void(0);">Language
+: 
+                                        <span class="highlight">en-US</span>
+                                    </a>
+                                    <ul class="main-nav__sub">
+                                        <li>
+                                            <a href="https://ourcodeworld.com">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ourcodeworld.co">Español</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                                <li class="nav-account__item nav-account__item--logout">
+                                                                            <a href="/login">Login</a>
+                                                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__primary">
+                    <div class="container">
+                        <div class="header__primary-inner">
+                            <div class="header-logo">
+                                <a href="/">
+                                    <img src="fonts/ocw_logo_symbol.svg" alt="Our Code World" class="header-logo__img" style="width: 130px;">
+                                </a>
+                            </div>
+                            <nav class="main-nav">
+                                <ul class="main-nav__list"><div class="header-mobile__logo"><span class="main-nav__back"></span>
+                    <a href="/">
+                        <img src="fonts/ocw_logo_symbol.svg" alt="Our Code World" class="header-mobile__logo-img">
+                    </a>
+                </div>
+                                    <li class>
+                                        <a href="/">
+                                            Home
+
+                                        </a>
+                                    </li>
+                                    <li class="has-children"><span class="main-nav__toggle"></span>
+                                        <a href="/articles">
+                                            Content
+
+                                        </a>
+                                        <div class="main-nav__megamenu">
+                                            <div class="row"> 
+                                                <ul class="col-lg-3 col-md-3 col-12 main-nav__ul main-nav__ul-1cols">
+                                                    <li class="main-nav__title">Blog</li>
+                                                    <li>
+                                                        <a href="/articles">
+                                                            Articles
+
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/categories/tops">
+                                                            Tops
+
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/categories">
+                                                            Explore by categories
+
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="col-lg-3 col-md-3 col-12 main-nav__ul main-nav__ul-2cols">
+                                                    <li class="main-nav__title">
+                                                        Other pages
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="/about">
+                                                            About
+
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/advertise-with-us">
+                                                            Advertise with us
+
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/authors">
+                                                            Authors
+
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/contact">
+                                                            Contact us
+
+                                                        </a>
+                                                    </li>
+                                                </ul>
+
+                                                <ul class="col-lg-2 col-md-3 col-12 main-nav__ul">
+                                                    <li class="main-nav__title">Legal</li>
+                                                    <li>
+                                                        <a href="/privacy-policy">
+                                                            Privacy Policy
+
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/comments-policy">
+                                                            Comment Policy
+
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="has-children"><span class="main-nav__toggle"></span>
+                                        <a href="javascript:void(0);">
+                                            Inquiries
+
+                                        </a>
+                                        <ul class="main-nav__sub">
+                                            <li><a href="/about">About
+</a></li>
+                                            <li><a href="/advertise-with-us">Advertise with us
+</a></li>
+                                            <li><a href="/contact">Contact us
+</a></li>
+                                        </ul>
+                                    </li>
+                                <li class="nav-account__item has-children"><span class="main-nav__toggle"></span>
+                                    <a href="javascript:void(0);">Language
+: 
+                                        <span class="highlight">en-US</span>
+                                    </a>
+                                    <ul class="main-nav__sub">
+                                        <li>
+                                            <a href="https://ourcodeworld.com">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://ourcodeworld.co">Español</a>
+                                        </li>
+                                    </ul>
+                                </li><li class="nav-account__item nav-account__item--logout">
+                                                                            <a href="/login">Login</a>
+                                                                    </li><li class="main-nav__item--social-links">
+                                    <a href="https://www.facebook.com/ourcodeworld" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Facebook"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"/></svg></span></a>
+                                
+                                    <a href="https://twitter.com/ourcodeworld" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Twitter"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></span></a>
+                                
+                                    <a href="https://github.com/ourcodeworld" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Github"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"/></svg></span></a>
+                                
+                                    <a href="https://www.youtube.com/ourcodeworld?sub_confirmation=1" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="YouTube"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"/></svg></span></a>
+                                
+                                    <a href="https://www.instagram.com/ourcodeworld/" class="social-links__link" data-toggle="tooltip" data-placement="bottom" title data-original-title="Instagram"><span class="fa-svg-icon"><svg style="height: 2em; width: 2em;fill: #fff;" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"/></svg></span></a>
+                                </li></ul>
+                            </nav>
+                            <!-- Main Navigation / End -->
+                            <div class="header__primary-spacer"></div>
+                            <!-- Header Search Form -->
+                            <div class="header-search-form">
+                                <form action="/search" id="mobile-search-form" class="search-form">
+                                    <input type="text" class="form-control header-mobile__search-control" name="q" placeholder="Enter your search here...
+">
+                                    <button type="submit" class="header-mobile__search-submit"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></span></button>
+                                </form>
+                            </div>
+                            <!-- Header Search Form / End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Header Primary / End -->
+            </header>
+                <div class="container">
+        <div class="posts posts--tile posts--tile-alt post-grid grid-layout grid-layout--1-2-1 posts--tile-alt-nopaddings posts--tile-hero-post-grid posts--tile-meta-position">
+                        <div class="post-grid__item posts__item posts__item--tile posts__item--category-2">
+                <figure class="posts__thumb h-100">
+                    <img src="images/xip-io-wildcard-dns-for-everyone-6082f7736e7ef.png" alt="XIP.IO: a magic domain name that provides wildcard DNS for any IP address" class="h-100 lazy loaded" data-ll-status="loaded">
+                    <div class="posts__inner">
+                        <div class="posts__cat">
+                            <span class="label posts__cat-label posts__cat-label--category-2">
+                                Discover
+                            </span>
+                        </div>
+                        <h6 class="posts__title posts__title--lg posts__title--color-hover">
+                            <a href="/articles/read/1510/xip-io-a-magic-domain-name-that-provides-wildcard-dns-for-any-ip-address">
+                                XIP.IO: a magic domain name that provides wildcard DNS for any IP address
+                            </a>
+                        </h6>
+                        <time datetime="2021-04-23 13:19" class="posts__date">April 23 2021</time>
+                        <ul class="post__meta meta">
+                            <li class="meta__item meta__item--views">
+                                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span> 3.7K
+                            </li>
+                        </ul>
+                    </div>
+                </figure>
+                            
+                <a href="/articles/read/1510/xip-io-a-magic-domain-name-that-provides-wildcard-dns-for-any-ip-address" class="posts__cta"></a>
+            </div>
+                      
+                                        <div class="post-grid__item posts__item posts__item--tile posts__item--category-2">
+                <figure class="posts__thumb h-100">
+                    <img src="images/sketch-60a51f14cff90.png" alt="Top 5: Sketch Alternative Design Tools for UI/UX Design" class="h-100 lazy loaded" data-ll-status="loaded">
+                    <div class="posts__inner">
+                        <div class="posts__cat">
+                            <span class="label posts__cat-label posts__cat-label--category-2">
+                                Tops
+                            </span>
+                        </div>
+                        <h6 class="posts__title posts__title--color-hover">
+                            <a href="/articles/read/1528/top-5-sketch-alternative-design-tools-for-ui-ux-design">
+                                Top 5: Sketch Alternative Design Tools for UI/UX Design
+                            </a>
+                        </h6>
+                        <time datetime="2021-05-19 10:18" class="posts__date">May 19 2021</time>
+                        <ul class="post__meta meta">
+                            <li class="meta__item meta__item--views">
+                                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span> 350
+                            </li>
+                        </ul>
+                    </div>
+                </figure>
+                <a href="/articles/read/1528/top-5-sketch-alternative-design-tools-for-ui-ux-design" class="posts__cta"></a>
+            </div>
+                                        <div class="post-grid__item posts__item posts__item--tile posts__item--category-2">
+                <figure class="posts__thumb h-100">
+                    <img src="images/top10-best-android-album-gallery-picker-libraries-609aa007131ea.jpg" alt="Top 10: Best Android Album and Gallery Picker Libraries" class="h-100 lazy loaded" data-ll-status="loaded">
+                    <div class="posts__inner">
+                        <div class="posts__cat">
+                            <span class="label posts__cat-label posts__cat-label--category-2">
+                                Tops
+                            </span>
+                        </div>
+                        <h6 class="posts__title posts__title--color-hover">
+                            <a href="/articles/read/931/top-10-best-android-album-and-gallery-picker-libraries">
+                                Top 10: Best Android Album and Gallery Picker Libraries
+                            </a>
+                        </h6>
+                        <time datetime="2021-05-11 10:37" class="posts__date">May 11 2021</time>
+                        <ul class="post__meta meta">
+                            <li class="meta__item meta__item--views">
+                                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span> 230
+                            </li>
+                        </ul>
+                    </div>
+                </figure>
+                <a href="/articles/read/931/top-10-best-android-album-and-gallery-picker-libraries" class="posts__cta"></a>
+            </div>
+                                        <div class="post-grid__item posts__item posts__item--tile posts__item--category-2">
+                <figure class="posts__thumb h-100">
+                    <img src="images/top-7-best-online-tools-to-create-elegant-code-screenshots-6033d036872e4.jpeg" alt="Top 7: Best Online Tools To Create Elegant Code Screenshots" class="h-100 lazy loaded" data-ll-status="loaded">
+                    <div class="posts__inner">
+                        <div class="posts__cat">
+                            <span class="label posts__cat-label posts__cat-label--category-2">
+                                Tops
+                            </span>
+                        </div>
+                        <h6 class="posts__title posts__title--color-hover">
+                            <a href="/articles/read/1451/top-7-best-online-tools-to-create-elegant-code-screenshots">
+                                Top 7: Best Online Tools To Create Elegant Code Screenshots
+                            </a>
+                        </h6>
+                        <time datetime="2021-02-22 11:45" class="posts__date">February 22 2021</time>
+                        <ul class="post__meta meta">
+                            <li class="meta__item meta__item--views">
+                                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span> 4.8K
+                            </li>
+                        </ul>
+                    </div>
+                </figure>
+                <a href="/articles/read/1451/top-7-best-online-tools-to-create-elegant-code-screenshots" class="posts__cta"></a>
+            </div>
+                         
+             
+        </div>
+    </div>
+            <div class="site-content" style="height: auto !important;">
+                <div class="container">
+        <div class="marquee-wrapper marquee-wrapper--boxed">
+            <div class="container">
+                <div class="marquee-label"><i class="fa fa-star"></i> Sponsored
+</div>
+                <div class="marquee" data-startvisible="true" data-duration="18000" data-gap="10" data-duplicated="true"><div style="width: 100000px; transform: translateX(0px); animation: 36.8205s linear 1s infinite normal none running marqueeAnimation-8538951;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 10px; float: left;">
+                    <ul class="posts posts--inline">
+                        <li class="posts__item posts__item--category-4">
+                            <div class="posts__cat"><span class="label posts__cat-label posts__cat-label--category-4">Themeforest</span></div>
+                            <h6 class="posts__title posts__title--color-hover">
+                                <a href="https://1.envato.market/n1JbM" target="_blank">Cheap Premium Website Templates</a>
+                            </h6>
+                            <div class="posts__excerpt">Find the most awesome premium website templates starting at $5</div>
+                        </li>
+                        <li class="posts__item posts__item--category-1">
+                            <div class="posts__cat"><span class="label posts__cat-label posts__cat-label--category-1">ENVATO</span></div>
+                            <h6 class="posts__title posts__title--color-hover">
+                                <a href="https://1.envato.market/rn41j" target="_blank">Envato elements</a>
+                            </h6>
+                            <div class="posts__excerpt">Browse through thousands of stock photos, fonts and web templates. With unlimited downloads of all of our items, your project will be perfect in no time.</div>
+                        </li>
+                        <li class="posts__item posts__item--category-2">
+                            <div class="posts__cat">
+                                <span class="label posts__cat-label posts__cat-label--category-2">FREE WEBSITE TEMPLATES</span></div>
+                            <h6 class="posts__title posts__title--color-hover">
+                                <a href="https://bestfreehtmlcsstemplates.com/" target="_blank">Best Free HTML/CSS Templates</a>
+                            </h6>
+                            <div class="posts__excerpt">A huge collection of free HTML/CSS templates for your web projects.</div>
+                        </li>
+                    </ul>
+                </div><div class="js-marquee" style="margin-right: 10px; float: left;">
+                    <ul class="posts posts--inline">
+                        <li class="posts__item posts__item--category-4">
+                            <div class="posts__cat"><span class="label posts__cat-label posts__cat-label--category-4">Themeforest</span></div>
+                            <h6 class="posts__title posts__title--color-hover">
+                                <a href="https://1.envato.market/n1JbM" target="_blank">Cheap Premium Website Templates</a>
+                            </h6>
+                            <div class="posts__excerpt">Find the most awesome premium website templates starting at $5</div>
+                        </li>
+                        <li class="posts__item posts__item--category-1">
+                            <div class="posts__cat"><span class="label posts__cat-label posts__cat-label--category-1">ENVATO</span></div>
+                            <h6 class="posts__title posts__title--color-hover">
+                                <a href="https://1.envato.market/rn41j" target="_blank">Envato elements</a>
+                            </h6>
+                            <div class="posts__excerpt">Browse through thousands of stock photos, fonts and web templates. With unlimited downloads of all of our items, your project will be perfect in no time.</div>
+                        </li>
+                        <li class="posts__item posts__item--category-2">
+                            <div class="posts__cat">
+                                <span class="label posts__cat-label posts__cat-label--category-2">FREE WEBSITE TEMPLATES</span></div>
+                            <h6 class="posts__title posts__title--color-hover">
+                                <a href="https://bestfreehtmlcsstemplates.com/" target="_blank">Best Free HTML/CSS Templates</a>
+                            </h6>
+                            <div class="posts__excerpt">A huge collection of free HTML/CSS templates for your web projects.</div>
+                        </li>
+                    </ul>
+                </div></div></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container" style="height: auto !important;">
+        <div class="row" style="height: auto !important;">
+            <!-- Content -->
+            <div class="content col-lg-8">
+                <div class="posts posts--cards post-grid post-grid--2cols row">
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1543/the-top-7-business-management-tools-in-2021">
+                                                                                    <img src="images/the-top-7-business-management-tools-in-2021-60d330dd69be1.jpg" alt="The Top 7 Business Management Tools in 2021" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 177.594px;">
+                                    <a href="/articles/read/1543/the-top-7-business-management-tools-in-2021" class="posts__cta"></a>
+                                    <time datetime="2021-06-23 08:09" class="posts__date">June 23 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1543/the-top-7-business-management-tools-in-2021">
+                                            The Top 7 Business Management Tools in 2021
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Check out the best 7 business management tools in 2021.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  21
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1542/recruiting-strategies-startup-tips">
+                                                                                    <img src="images/recruiting-tips-for-startups-60d09e0dcf1a2.jpg" alt="Recruiting strategies: startup tips" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 177.594px;">
+                                    <a href="/articles/read/1542/recruiting-strategies-startup-tips" class="posts__cta"></a>
+                                    <time datetime="2021-06-21 09:21" class="posts__date">June 21 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1542/recruiting-strategies-startup-tips">
+                                            Recruiting strategies: startup tips
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Check out these tips for recruiting in startups.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  64
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1537/why-your-premium-website-templates-should-offer-a-free-version-template-freebies">
+                                                                                    <img src="images/why-your-premium-template-should-offer-a-free-version-template-freebies-60cf56fb223e2.jpg" alt="Why your premium website templates should offer a free version (template freebies)" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 203.594px;">
+                                    <a href="/articles/read/1537/why-your-premium-website-templates-should-offer-a-free-version-template-freebies" class="posts__cta"></a>
+                                    <time datetime="2021-06-20 10:08" class="posts__date">June 20 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1537/why-your-premium-website-templates-should-offer-a-free-version-template-freebies">
+                                            Why your premium website templates should offer a free version (template freebies)
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Learn why you should always offer a free version of a premium template that you want to sell on a template marketplace.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  109
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1541/how-to-create-a-project-roadmap-for-your-software-build">
+                                                                                    <img src="images/project-roadmap-for-your-software-build-60cdfcf5e1b04.jpg" alt="How To Create A Project Roadmap For Your Software Build" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 203.594px;">
+                                    <a href="/articles/read/1541/how-to-create-a-project-roadmap-for-your-software-build" class="posts__cta"></a>
+                                    <time datetime="2021-06-19 09:28" class="posts__date">June 19 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1541/how-to-create-a-project-roadmap-for-your-software-build">
+                                            How To Create A Project Roadmap For Your Software Build
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Learn how to create a project roadmap for your software build.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  112
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1540/how-to-develop-a-successful-app">
+                                                                                    <img src="images/develop-a-succesful-app-60cdf34bddf09.jpg" alt="How to Develop a Successful App" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 177.594px;">
+                                    <a href="/articles/read/1540/how-to-develop-a-successful-app" class="posts__cta"></a>
+                                    <time datetime="2021-06-19 08:41" class="posts__date">June 19 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1540/how-to-develop-a-successful-app">
+                                            How to Develop a Successful App
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Discover how you can develop a succesful app.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  97
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1539/5-features-that-make-a-website-more-user-friendly">
+                                                                                    <img src="images/what-makes-a-website-user-friendly-60c8c8e03233a.jpg" alt="5 Features That Make A Website More User-Friendly" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 177.594px;">
+                                    <a href="/articles/read/1539/5-features-that-make-a-website-more-user-friendly" class="posts__cta"></a>
+                                    <time datetime="2021-06-15 10:41" class="posts__date">June 15 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1539/5-features-that-make-a-website-more-user-friendly">
+                                            5 Features That Make A Website More User-Friendly
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Discover these 5 features that make a website more user-friendly.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  150
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1538/the-importance-of-securing-a-regular-windows-registry-backup">
+                                                                                    <img src="images/windows-registry-60c8b5afb203d.png" alt="The Importance of Securing a Regular Windows Registry Backup" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 177.594px;">
+                                    <a href="/articles/read/1538/the-importance-of-securing-a-regular-windows-registry-backup" class="posts__cta"></a>
+                                    <time datetime="2021-06-15 09:19" class="posts__date">June 15 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1538/the-importance-of-securing-a-regular-windows-registry-backup">
+                                            The Importance of Securing a Regular Windows Registry Backup
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Discover the importance of securing a regular windows registry backup.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  171
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                                                    
+                        <div class="post-grid__item col-sm-6">
+                            <div class="posts__item posts__item--card posts__item--category-1 posts__item--category-4 card">
+                                <figure class="posts__thumb">
+                                    <div class="posts__cat">
+                                                                                    <a href="/categories/others">
+                                                <span class="label posts__cat-label posts__cat-label--category-2">
+                                                    Others
+                                                </span>
+                                            </a>
+                                                                            </div>
+                                    <a href="/articles/read/1535/factors-to-consider-before-hiring-an-app-developer">
+                                                                                    <img src="images/app-developer-factors-for-hiring-60c36f175ec37.jpg" alt="Factors To Consider Before Hiring An App Developer" class="lazy loaded" data-ll-status="loaded">
+                                                                            </a>
+                                </figure>
+                                <div class="posts__inner card__content article-innercard" style="height: 177.594px;">
+                                    <a href="/articles/read/1535/factors-to-consider-before-hiring-an-app-developer" class="posts__cta"></a>
+                                    <time datetime="2021-06-11 09:39" class="posts__date">June 11 2021</time>
+                                    <h6 class="posts__title posts__title--color-hover">
+                                        <a href="/articles/read/1535/factors-to-consider-before-hiring-an-app-developer">
+                                            Factors To Consider Before Hiring An App Developer
+                                        </a>
+                                    </h6>
+                                    <div class="posts__excerpt">
+                                        Check out these important factors to consider before hiring any app developer.
+                                    </div>
+                                </div>
+                                <footer class="posts__footer card__footer">
+                                    <ul class="post__meta meta">
+                                        <li class="meta__item meta__item--views">
+                                            <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1664 960q-152-236-381-353 61 104 61 225 0 185-131.5 316.5t-316.5 131.5-316.5-131.5-131.5-316.5q0-121 61-225-229 117-381 353 133 205 333.5 326.5t434.5 121.5 434.5-121.5 333.5-326.5zm-720-384q0-20-14-34t-34-14q-125 0-214.5 89.5t-89.5 214.5q0 20 14 34t34 14 34-14 14-34q0-86 61-147t147-61q20 0 34-14t14-34zm848 384q0 34-20 69-140 230-376.5 368.5t-499.5 138.5-499.5-139-376.5-368q-20-35-20-69t20-69q140-229 376.5-368t499.5-139 499.5 139 376.5 368q20 35 20 69z"/></svg></span>  166
+                                        </li>
+                                    </ul>
+                                </footer>
+                            </div>
+                        </div>
+                                    </div>
+                 
+                <div class="card card--clean">
+                    <header class="card__header card__header--has-btn">
+                        <h4>Latest Videos</h4>
+                        <a href="https://www.youtube.com/ourcodeworld?sub_confirmation=1" class="btn btn-default btn-xs card-header__button">
+                            See All Videos
+                        </a>
+                    </header>
+                    <div class="card__content">
+                        <div class="posts posts--cards posts--cards-thumb-left post-list">
+                                                                                            <div class="post-list__item">
+                                    <div class="posts__item posts__item--card posts__item--category-1 card card--block">
+                                        <figure class="posts__thumb">
+                                            <a href="/articles/read/1468/how-to-install-apache-netbeans-12-in-macos-bigsur">
+                                                <img src="images/hqdefault.jpg" class="lazy loaded" alt data-ll-status="loaded">
+                                            </a>
+                                            <a href="/articles/read/1468/how-to-install-apache-netbeans-12-in-macos-bigsur" class="posts__cta"></a>
+                                        </figure>
+                                        <div class="posts__inner">
+                                            <div class="card__content">
+                                                <h6 class="posts__title"><a href="/articles/read/1468/how-to-install-apache-netbeans-12-in-macos-bigsur">How to install Apache Netbeans 12 in MacOS BigSur</a></h6>
+                                                <time datetime="2021-03-25 19:52" class="posts__date">March 25 2021</time>
+                                                <div class="posts__excerpt">
+                                                    Learn how to easily install Apache NetBeans in MacOS BigSur using Homebrew.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                                            <div class="post-list__item">
+                                    <div class="posts__item posts__item--card posts__item--category-1 card card--block">
+                                        <figure class="posts__thumb">
+                                            <a href="/articles/read/1300/how-to-fix-windows-10-issue-that-displays-internal-sata-connected-ssd-hdd-as-removable">
+                                                <img src="images/sddefault_1.jpg" class="lazy loaded" alt data-ll-status="loaded">
+                                            </a>
+                                            <a href="/articles/read/1300/how-to-fix-windows-10-issue-that-displays-internal-sata-connected-ssd-hdd-as-removable" class="posts__cta"></a>
+                                        </figure>
+                                        <div class="posts__inner">
+                                            <div class="card__content">
+                                                <h6 class="posts__title"><a href="/articles/read/1300/how-to-fix-windows-10-issue-that-displays-internal-sata-connected-ssd-hdd-as-removable">How to fix Windows 10 Issue that displays internal SATA connected SSD/HDD as removable</a></h6>
+                                                <time datetime="2021-01-01 13:31" class="posts__date">January 01 2021</time>
+                                                <div class="posts__excerpt">
+                                                    Learn how to fix this problem in Windows 10 that allows you to eject SATA connected storage devices (SDD's and HDD's).
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                                            <div class="post-list__item">
+                                    <div class="posts__item posts__item--card posts__item--category-1 card card--block">
+                                        <figure class="posts__thumb">
+                                            <a href="/articles/read/1301/how-to-convert-a-midi-file-into-an-8-bit-like-audio-using-gxscc">
+                                                <img src="images/sddefault.jpg" class="lazy loaded" alt data-ll-status="loaded">
+                                            </a>
+                                            <a href="/articles/read/1301/how-to-convert-a-midi-file-into-an-8-bit-like-audio-using-gxscc" class="posts__cta"></a>
+                                        </figure>
+                                        <div class="posts__inner">
+                                            <div class="card__content">
+                                                <h6 class="posts__title"><a href="/articles/read/1301/how-to-convert-a-midi-file-into-an-8-bit-like-audio-using-gxscc">How to convert a MIDI file into an 8-Bit like audio using GXSCC</a></h6>
+                                                <time datetime="2020-11-28 16:28" class="posts__date">November 28 2020</time>
+                                                <div class="posts__excerpt">
+                                                    Learn how to easily convert a midi file into an 8-Bit like audio using GXSCC.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+                        
+            <div id="sidebar" class="sidebar col-lg-4" style="height: auto !important;">
+                                    <div class="card">
+        <div class="card__header">
+            <h4>Register in Our Code World and Remove Advertising</h4>
+        </div>
+        <div class="card__content">
+            <p class="text-center">
+                Create an account and remove the advertising from Our Code World for a year for only $2 USD, or $10 USD to remove them forever.                </p><div class="paypal-powered-by"><style>
+                    .paypal-powered-by {
+                        text-align: center;
+                        margin: 10px auto;
+                        height: 14px;
+                        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        font-size: 11px;
+                        font-weight: normal;
+                        font-style: italic;
+                        font-stretch: normal;
+                        color: #7b8388;
+                        position: relative;
+                        margin-right: 3px;
+                        bottom: 3px;
+                    }
+
+                    .paypal-powered-by > .paypal-button-text,
+                    .paypal-powered-by > .paypal-logo {
+                        display: inline-block;
+                        vertical-align: middle;
+                        height: 16px;
+                        line-height: 16px;
+                        font-size: 11px;
+                    }
+                </style><span class="paypal-button-text immediate">Powered By &nbsp;</span><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxcHgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxMDEgMzIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHhtbG5zPSJodHRwOiYjeDJGOyYjeDJGO3d3dy53My5vcmcmI3gyRjsyMDAwJiN4MkY7c3ZnIj48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNIDEyLjIzNyAyLjggTCA0LjQzNyAyLjggQyAzLjkzNyAyLjggMy40MzcgMy4yIDMuMzM3IDMuNyBMIDAuMjM3IDIzLjcgQyAwLjEzNyAyNC4xIDAuNDM3IDI0LjQgMC44MzcgMjQuNCBMIDQuNTM3IDI0LjQgQyA1LjAzNyAyNC40IDUuNTM3IDI0IDUuNjM3IDIzLjUgTCA2LjQzNyAxOC4xIEMgNi41MzcgMTcuNiA2LjkzNyAxNy4yIDcuNTM3IDE3LjIgTCAxMC4wMzcgMTcuMiBDIDE1LjEzNyAxNy4yIDE4LjEzNyAxNC43IDE4LjkzNyA5LjggQyAxOS4yMzcgNy43IDE4LjkzNyA2IDE3LjkzNyA0LjggQyAxNi44MzcgMy41IDE0LjgzNyAyLjggMTIuMjM3IDIuOCBaIE0gMTMuMTM3IDEwLjEgQyAxMi43MzcgMTIuOSAxMC41MzcgMTIuOSA4LjUzNyAxMi45IEwgNy4zMzcgMTIuOSBMIDguMTM3IDcuNyBDIDguMTM3IDcuNCA4LjQzNyA3LjIgOC43MzcgNy4yIEwgOS4yMzcgNy4yIEMgMTAuNjM3IDcuMiAxMS45MzcgNy4yIDEyLjYzNyA4IEMgMTMuMTM3IDguNCAxMy4zMzcgOS4xIDEzLjEzNyAxMC4xIFoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNIDM1LjQzNyAxMCBMIDMxLjczNyAxMCBDIDMxLjQzNyAxMCAzMS4xMzcgMTAuMiAzMS4xMzcgMTAuNSBMIDMwLjkzNyAxMS41IEwgMzAuNjM3IDExLjEgQyAyOS44MzcgOS45IDI4LjAzNyA5LjUgMjYuMjM3IDkuNSBDIDIyLjEzNyA5LjUgMTguNjM3IDEyLjYgMTcuOTM3IDE3IEMgMTcuNTM3IDE5LjIgMTguMDM3IDIxLjMgMTkuMzM3IDIyLjcgQyAyMC40MzcgMjQgMjIuMTM3IDI0LjYgMjQuMDM3IDI0LjYgQyAyNy4zMzcgMjQuNiAyOS4yMzcgMjIuNSAyOS4yMzcgMjIuNSBMIDI5LjAzNyAyMy41IEMgMjguOTM3IDIzLjkgMjkuMjM3IDI0LjMgMjkuNjM3IDI0LjMgTCAzMy4wMzcgMjQuMyBDIDMzLjUzNyAyNC4zIDM0LjAzNyAyMy45IDM0LjEzNyAyMy40IEwgMzYuMTM3IDEwLjYgQyAzNi4yMzcgMTAuNCAzNS44MzcgMTAgMzUuNDM3IDEwIFogTSAzMC4zMzcgMTcuMiBDIDI5LjkzNyAxOS4zIDI4LjMzNyAyMC44IDI2LjEzNyAyMC44IEMgMjUuMDM3IDIwLjggMjQuMjM3IDIwLjUgMjMuNjM3IDE5LjggQyAyMy4wMzcgMTkuMSAyMi44MzcgMTguMiAyMy4wMzcgMTcuMiBDIDIzLjMzNyAxNS4xIDI1LjEzNyAxMy42IDI3LjIzNyAxMy42IEMgMjguMzM3IDEzLjYgMjkuMTM3IDE0IDI5LjczNyAxNC42IEMgMzAuMjM3IDE1LjMgMzAuNDM3IDE2LjIgMzAuMzM3IDE3LjIgWiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDMwODciIGQ9Ik0gNTUuMzM3IDEwIEwgNTEuNjM3IDEwIEMgNTEuMjM3IDEwIDUwLjkzNyAxMC4yIDUwLjczNyAxMC41IEwgNDUuNTM3IDE4LjEgTCA0My4zMzcgMTAuOCBDIDQzLjIzNyAxMC4zIDQyLjczNyAxMCA0Mi4zMzcgMTAgTCAzOC42MzcgMTAgQyAzOC4yMzcgMTAgMzcuODM3IDEwLjQgMzguMDM3IDEwLjkgTCA0Mi4xMzcgMjMgTCAzOC4yMzcgMjguNCBDIDM3LjkzNyAyOC44IDM4LjIzNyAyOS40IDM4LjczNyAyOS40IEwgNDIuNDM3IDI5LjQgQyA0Mi44MzcgMjkuNCA0My4xMzcgMjkuMiA0My4zMzcgMjguOSBMIDU1LjgzNyAxMC45IEMgNTYuMTM3IDEwLjYgNTUuODM3IDEwIDU1LjMzNyAxMCBaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwOWNkZSIgZD0iTSA2Ny43MzcgMi44IEwgNTkuOTM3IDIuOCBDIDU5LjQzNyAyLjggNTguOTM3IDMuMiA1OC44MzcgMy43IEwgNTUuNzM3IDIzLjYgQyA1NS42MzcgMjQgNTUuOTM3IDI0LjMgNTYuMzM3IDI0LjMgTCA2MC4zMzcgMjQuMyBDIDYwLjczNyAyNC4zIDYxLjAzNyAyNCA2MS4wMzcgMjMuNyBMIDYxLjkzNyAxOCBDIDYyLjAzNyAxNy41IDYyLjQzNyAxNy4xIDYzLjAzNyAxNy4xIEwgNjUuNTM3IDE3LjEgQyA3MC42MzcgMTcuMSA3My42MzcgMTQuNiA3NC40MzcgOS43IEMgNzQuNzM3IDcuNiA3NC40MzcgNS45IDczLjQzNyA0LjcgQyA3Mi4yMzcgMy41IDcwLjMzNyAyLjggNjcuNzM3IDIuOCBaIE0gNjguNjM3IDEwLjEgQyA2OC4yMzcgMTIuOSA2Ni4wMzcgMTIuOSA2NC4wMzcgMTIuOSBMIDYyLjgzNyAxMi45IEwgNjMuNjM3IDcuNyBDIDYzLjYzNyA3LjQgNjMuOTM3IDcuMiA2NC4yMzcgNy4yIEwgNjQuNzM3IDcuMiBDIDY2LjEzNyA3LjIgNjcuNDM3IDcuMiA2OC4xMzcgOCBDIDY4LjYzNyA4LjQgNjguNzM3IDkuMSA2OC42MzcgMTAuMSBaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwOWNkZSIgZD0iTSA5MC45MzcgMTAgTCA4Ny4yMzcgMTAgQyA4Ni45MzcgMTAgODYuNjM3IDEwLjIgODYuNjM3IDEwLjUgTCA4Ni40MzcgMTEuNSBMIDg2LjEzNyAxMS4xIEMgODUuMzM3IDkuOSA4My41MzcgOS41IDgxLjczNyA5LjUgQyA3Ny42MzcgOS41IDc0LjEzNyAxMi42IDczLjQzNyAxNyBDIDczLjAzNyAxOS4yIDczLjUzNyAyMS4zIDc0LjgzNyAyMi43IEMgNzUuOTM3IDI0IDc3LjYzNyAyNC42IDc5LjUzNyAyNC42IEMgODIuODM3IDI0LjYgODQuNzM3IDIyLjUgODQuNzM3IDIyLjUgTCA4NC41MzcgMjMuNSBDIDg0LjQzNyAyMy45IDg0LjczNyAyNC4zIDg1LjEzNyAyNC4zIEwgODguNTM3IDI0LjMgQyA4OS4wMzcgMjQuMyA4OS41MzcgMjMuOSA4OS42MzcgMjMuNCBMIDkxLjYzNyAxMC42IEMgOTEuNjM3IDEwLjQgOTEuMzM3IDEwIDkwLjkzNyAxMCBaIE0gODUuNzM3IDE3LjIgQyA4NS4zMzcgMTkuMyA4My43MzcgMjAuOCA4MS41MzcgMjAuOCBDIDgwLjQzNyAyMC44IDc5LjYzNyAyMC41IDc5LjAzNyAxOS44IEMgNzguNDM3IDE5LjEgNzguMjM3IDE4LjIgNzguNDM3IDE3LjIgQyA3OC43MzcgMTUuMSA4MC41MzcgMTMuNiA4Mi42MzcgMTMuNiBDIDgzLjczNyAxMy42IDg0LjUzNyAxNCA4NS4xMzcgMTQuNiBDIDg1LjczNyAxNS4zIDg1LjkzNyAxNi4yIDg1LjczNyAxNy4yIFoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDA5Y2RlIiBkPSJNIDk1LjMzNyAzLjMgTCA5Mi4xMzcgMjMuNiBDIDkyLjAzNyAyNCA5Mi4zMzcgMjQuMyA5Mi43MzcgMjQuMyBMIDk1LjkzNyAyNC4zIEMgOTYuNDM3IDI0LjMgOTYuOTM3IDIzLjkgOTcuMDM3IDIzLjQgTCAxMDAuMjM3IDMuNSBDIDEwMC4zMzcgMy4xIDEwMC4wMzcgMi44IDk5LjYzNyAyLjggTCA5Ni4wMzcgMi44IEMgOTUuNjM3IDIuOCA5NS40MzcgMyA5NS4zMzcgMy4zIFoiPjwvcGF0aD48L3N2Zz4=" alt aria-label="PayPal" class="paypal-logo paypal-logo-paypal paypal-logo-color-blue"></div>
+            <p></p>
+            <a href="/login" class="btn btn-primary-inverse btn-block">
+                Create Account For Free
+            </a>
+        </div>
+    </div>
+
+                                
+                <aside class="widget widget--sidebar widget-social widget-social--buttons">
+        <a href="https://www.facebook.com/ourcodeworld" class="btn-social-counter btn-social-counter--fb" target="_blank">
+            <div class="btn-social-counter__icon">
+                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"/></svg></span>
+            </div>
+            <h6 class="btn-social-counter__title">Like Our Facebook Page</h6>
+            <span class="btn-social-counter__count">
+                <span class="btn-social-counter__count-num"></span> Like us
+            </span>	
+            <span class="btn-social-counter__add-icon"></span>
+        </a>
+        <a href="https://twitter.com/ourcodeworld" class="btn-social-counter btn-social-counter--twitter" target="_blank">
+            <div class="btn-social-counter__icon">
+                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></span>
+            </div>
+            <h6 class="btn-social-counter__title">Follow Us on Twitter</h6>
+            <span class="btn-social-counter__count">
+                <span class="btn-social-counter__count-num"></span> Follow us
+            </span> 
+            <span class="btn-social-counter__add-icon"></span> 
+        </a>
+        <a href="https://github.com/ourcodeworld" class="btn-social-counter btn-social-counter--github" target="_blank">
+            <div class="btn-social-counter__icon">
+                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"/></svg></span>
+            </div>
+            <span class="btn-social-counter__count">
+                <span class="btn-social-counter__count-num"></span> Star us on Github
+            </span> 
+            <span class="btn-social-counter__add-icon"></span> 
+        </a>
+        <a href="https://www.youtube.com/ourcodeworld?sub_confirmation=1" class="btn-social-counter btn-social-counter--youtube" target="_blank">
+            <div class="btn-social-counter__icon">
+                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"/></svg></span>
+            </div>
+            <h6 class="btn-social-counter__title">Subscribe to our YouTube channel</h6>
+            <span class="btn-social-counter__count">
+                <span class="btn-social-counter__count-num"></span> Subscribe</span> 
+            <span class="btn-social-counter__add-icon"></span> 
+        </a>
+        <a href="http://feeds.feedburner.com/OurCodeWorldRssFeed" class="btn-social-counter btn-social-counter--rss" target="_blank">
+            <div class="btn-social-counter__icon">
+                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M576 1344q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm512 123q2 28-17 48-18 21-47 21h-135q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5t-391.5-184.5q-25-2-41.5-20t-16.5-43v-135q0-29 21-47 17-17 43-17h5q160 13 306 80.5t259 181.5q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5t-19.5-42.5q-12-215-101-408.5t-231.5-336-336-231.5-408.5-102q-25-1-42.5-19.5t-17.5-43.5v-143q0-28 20-46 18-18 44-18h3q262 13 501.5 120t425.5 294q187 186 294 425.5t120 501.5z"/></svg></span>
+            </div>
+            <h6 class="btn-social-counter__title">Subscribe to Our RSS</h6>
+            <span class="btn-social-counter__count">
+                <span class="btn-social-counter__count-num">subscribe</span>
+            </span> 
+            <span class="btn-social-counter__add-icon"></span> 
+        </a>
+        <a href="https://www.instagram.com/ourcodeworld/" class="btn-social-counter btn-social-counter--instagram" target="_blank">
+            <div class="btn-social-counter__icon">
+                <span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"/></svg></span>
+            </div>
+            <h6 class="btn-social-counter__title">Follow Us on Instagram</h6>
+            <span class="btn-social-counter__count">
+                <span class="btn-social-counter__count-num"></span> Follow us</span> 
+            <span class="btn-social-counter__add-icon"></span>
+        </a>
+    </aside>
+
+                
+                                    <aside class="widget card widget--sidebar widget-banner">
+                        <div class="widget__title card__header">
+                            <h4>Advertising
+</h4>
+                        </div>
+                        <div class="widget__content card__content text-center">
+                                    
+        
+            <iframe class="lazy loaded" data-lazy-function="vertical" id="ourcodeworld.com_300x600_1_DFP" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" width="300" height="600" data-ll-status="loaded"></iframe> <script>
+    (window.lazyFunctions = window.lazyFunctions || {});
+    window.lazyFunctions["vertical"] = function(element){
+        !function(){var e="ourcodeworld.com_300x600_1_DFP",t=new XMLHttpRequest;t.onreadystatechange=function(){if(4==t.readyState&&200==t.status){var n=document.getElementById(e).contentWindow.document;n.open(),n.write(t.responseText),n.close()}},t.open("GET","https://pubads.g.doubleclick.net/gampad/adx?iu=/147246189/"+e+"&sz="+encodeURI("300x600|300x250")+"&t=Placement_type%3Dserving&"+Date.now(),!0),t.send()}();
+        console.log("Setupad: Vertical ad succesfully loaded");
+    };
+</script>
+    
+                        </div>
+                    </aside>
+
+                    <aside class="widget widget--sidebar widget-twitch">
+                        <div class="twitch-streams">
+                            <div class="twitch-stream-wrapper">
+                                <a href="https://setupad.com/maximise-your-ad-revenue-with-header-bidding/?utm_source=alvils-ourcodeworld&amp;utm_medium=link&amp;utm_campaign=leads_ourcodeworld" class="twitch-stream card">
+                                    <div class="twitch-stream__overlay twitch-stream__overlay--bg1 effect-duotone effect-duotone--base"><div class="effect-duotone__layer"><div class="effect-duotone__layer-inner"></div></div></div>
+                                    <figure class="twitch-stream__img">
+                                        <img src="images/setupad.png" alt="Setupad">
+                                    </figure>
+                                    <div class="twitch-stream__body">
+                                        <h5 class="twitch-stream__title">Setupad Monetization</h5>
+                                        <div class="twitch-stream__info">Increase Your Ad Revenue by up to 300%</div>
+                                        <div class="twitch-stream__status twitch-stream__status--online">Sponsored
+</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="twitch-stream-wrapper">
+                                <a href="https://bestfreehtmlcsstemplates.com/" class="twitch-stream card">
+                                    <div class="twitch-stream__overlay twitch-stream__overlay--bg1 effect-duotone effect-duotone--base"><div class="effect-duotone__layer"><div class="effect-duotone__layer-inner"></div></div></div>
+                                    <figure class="twitch-stream__img">
+                                        <img src="images/mini_bestfreehtmlcsstemplates.png" alt>
+                                    </figure>
+                                    <div class="twitch-stream__body">
+                                        <h5 class="twitch-stream__title">Best Free HTML/CSS Templates</h5>
+                                        <div class="twitch-stream__info">FIND AN AWESOME WEB TEMPLATE FOR YOUR NEXT PROJECT FOR FREE</div>
+                                        <div class="twitch-stream__status twitch-stream__status--online">Sponsored
+</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="twitch-stream-wrapper">
+                                <a href="https://wrapbootstrap.com/?ref=sdkcarlos" class="twitch-stream card">
+                                    <div class="twitch-stream__overlay twitch-stream__overlay--bg1 effect-duotone effect-duotone--base"><div class="effect-duotone__layer"><div class="effect-duotone__layer-inner"></div></div></div>
+                                    <figure class="twitch-stream__img">
+                                        <img src="images/mini_wrapbootstrap.png" alt>
+                                    </figure>
+                                    <div class="twitch-stream__body">
+                                        <h5 class="twitch-stream__title">Wrap Bootstrap</h5>
+                                        <div class="twitch-stream__info">Premium Bootstrap Templates</div>
+                                        <div class="twitch-stream__status twitch-stream__status--online">Sponsored
+</div>
+                                    </div>
+                                </a>
+                            </div>  
+
+                            <div class="twitch-stream-wrapper">
+                                <a href="/advertise-with-us" class="twitch-stream card">
+                                    <div class="twitch-stream__overlay twitch-stream__overlay--bg1 effect-duotone effect-duotone--base"><div class="effect-duotone__layer"><div class="effect-duotone__layer-inner"></div></div></div>
+                                    <figure class="twitch-stream__img">
+                                        <img src="images/mini_ads.png" alt>
+                                    </figure>
+                                    <div class="twitch-stream__body">
+                                        <h5 class="twitch-stream__title">Advertise in Our Code World !</h5>
+                                        <div class="twitch-stream__info">+350K monthly impressions starting at $50/month</div>
+                                        <div class="twitch-stream__status twitch-stream__status--online">Sponsored
+</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
+                    
+                            
+                <aside class="widget widget--sidebar card widget-tabbed">
+                    <div class="widget__title card__header">
+                        <h4>Top Trending Articles</h4></div>
+                    <div class="widget__content card__content">
+                        <div class="widget-tabbed__tabs">
+                            <!-- Widget Tabs -->
+                            <ul class="nav nav-tabs nav-justified widget-tabbed__nav" role="tablist">
+                                <li class="nav-item">
+                                    <a href="#widget-tabbed-newest" class="nav-link active" aria-controls="widget-tabbed-newest" role="tab" data-toggle="tab">
+                                        Newest
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#widget-tabbed-commented" class="nav-link" aria-controls="widget-tabbed-commented" role="tab" data-toggle="tab">
+                                        Tops
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- Widget Tab panes -->
+                            <div class="tab-content widget-tabbed__tab-content">
+                                <!-- Newest -->
+                                <div role="tabpanel" class="tab-pane fade show active" id="widget-tabbed-newest">
+                                    <ul class="posts posts--simple-list">
+                                        <li class="posts__item posts__item--category-2">
+                                                <div class="text-center">
+        <a href="http://bit.ly/OCWDOREFERRAL" target="_blank" rel="noopener noreferrer">
+            <img loading="lazy" src="images/digital-ocean-banner.png" alt="DigitalOcean Referral">
+        </a>
+    </div>
+
+                                        </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                                                                        <div class="posts__cat">
+                                                        <span class="label posts__cat-label posts__cat-label--category-2">
+                                                            Javascript
+                                                        </span>
+                                                    </div>
+                                                                                                        <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/189/how-to-create-a-file-and-generate-a-download-with-javascript-in-the-browser-without-a-server">
+                                                            Learn how to generate a file using javascript in the browser and download it directly without use any server (local solution).
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-06-26 13:41" class="posts__date">June 26th 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                                                                        <div class="posts__cat">
+                                                        <span class="label posts__cat-label posts__cat-label--category-2">
+                                                            Javascript
+                                                        </span>
+                                                    </div>
+                                                                                                        <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/257/how-to-get-the-client-ip-address-with-javascript-only">
+                                                            Learn how to get the client IP address (local and private) using only javascript.
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-09-19 15:43" class="posts__date">September 19th 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                                                                        <div class="posts__cat">
+                                                        <span class="label posts__cat-label posts__cat-label--category-2">
+                                                            C#
+                                                        </span>
+                                                    </div>
+                                                                                                        <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/173/how-to-use-cefsharp-chromium-embedded-framework-csharp-in-a-winforms-application">
+                                                            Learn how to embed a CefSharp distribution in your Windows Forms app in c# easily.
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-06-16 13:01" class="posts__date">June 16th 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                                                                        <div class="posts__cat">
+                                                        <span class="label posts__cat-label posts__cat-label--category-2">
+                                                            jQuery
+                                                        </span>
+                                                    </div>
+                                                                                                        <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/322/how-to-convert-a-base64-image-into-a-image-file-and-upload-it-with-an-asynchronous-form-using-jquery">
+                                                            Learn how to convert a base64 string of an image into a file to upload with an asynchronous javascript form to the server
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-12-10 10:52" class="posts__date">December 10th 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                                                                        <div class="posts__cat">
+                                                        <span class="label posts__cat-label posts__cat-label--category-2">
+                                                            Kali Linux
+                                                        </span>
+                                                    </div>
+                                                                                                        <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/961/how-to-solve-kali-linux-apt-get-install-e-unable-to-locate-package-checkinstall">
+                                                            Learn how to solve the installation error of Check Install in Kali Linux.
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2019-06-11 16:21" class="posts__date">June 11th 2019</time>
+                                                </div>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                                <!-- Commented -->
+                                <div role="tabpanel" class="tab-pane fade" id="widget-tabbed-commented">
+                                    <ul class="posts posts--simple-list">
+                                        <li class="posts__item posts__item--category-2">
+                                                <div class="text-center">
+        <a href="http://bit.ly/OCWDOREFERRAL" target="_blank" rel="noopener noreferrer">
+            <img loading="lazy" src="images/digital-ocean-banner.png" alt="DigitalOcean Referral">
+        </a>
+    </div>
+
+                                        </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                    <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/200/top-7-best-free-web-development-ide-for-javascript-html-and-css">
+                                                            See our review from 7 of the best free IDE (and code editors) for the development of web projects
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-07-11 11:53" class="posts__date">July 11th 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                    <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/226/top-5-best-open-source-pdf-generation-libraries-for-php">
+                                                            See our collection from 5 of the best PDF generator libraries for PHP.
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-08-02 11:08" class="posts__date">August 2nd 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                    <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/55/top-5-best-jquery-scheduler-and-events-calendar-for-web-applications">
+                                                            See our review from 5 of the best dynamics scheduler and events calendar for Web applications with Javascript and jQuery.
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-02-22 15:59" class="posts__date">February 22nd 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                    <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/146/top-5-best-tree-view-jquery-and-javascript-plugins">
+                                                            See our review from 5 of the best tree view plugin to display hierarchically folders in your project.
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-05-16 16:38" class="posts__date">May 16th 2016</time>
+                                                </div>
+                                            </li>
+                                                                                                                                <li class="posts__item posts__item--category-2">
+                                                <div class="posts__inner">
+                                                    <h6 class="posts__title posts__title--color-hover">
+                                                        <a href="/articles/read/308/top-15-best-open-source-javascript-game-engines">
+                                                            See our collection from 15 of the best free to use javascript game engines
+                                                        </a>
+                                                    </h6>
+                                                    <time datetime="2016-11-27 13:48" class="posts__date">November 27th 2016</time>
+                                                </div>
+                                            </li>
+                                                                            </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                
+                                    <aside class="widget card widget--sidebar widget-banner" style="height: auto !important;">
+                        <div class="widget__title card__header">
+                            <h4>Advertising
+</h4>
+                        </div>
+                        <div class="widget__content card__content text-center" style="height: auto !important;">
+                                            
+        
+                        <script async src="js/adsbygoogle.js"></script> <!-- OCW Quad --> <ins class="adsbygoogle" style="display: block; height: 280px;" data-ad-client="ca-pub-5670702528070068" data-ad-slot="1545890314" data-ad-format="auto" data-full-width-responsive="true" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:280px;margin:0;padding:0;position:relative;visibility:visible;width:626px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_0_anchor" style="display: block; border: none; height: 280px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 626px; background-color: transparent; overflow: visible;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:626px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="626" height="280" frameborder="0" src="ads_1.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!1" data-google-query-id="CLzdt-6KsPECFdvVTAId1BoFTQ" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            
+                        </div>
+                    </aside>
+                            </div>
+        </div>
+    </div>
+      
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.ourcodeworld.com",
+        "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.ourcodeworld.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+        }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context" : "http://schema.org",
+        "@type" : "WebSite",
+        "name" : "Our Code World",
+        "alternateName" : "OurCodeWorld",
+        "url" : "http://www.ourcodeworld.com"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name":"Our Code World",
+        "url": "https://www.ourcodeworld.com",
+        "logo": "https://www.ourcodeworld.com/assets-v2/brand/ocw_logo.png",
+        "sameAs" : [
+        "http://www.twitter.com/ourcodeworld"
+        ]
+        }
+    </script>
+            </div>
+            <footer id="footer" class="footer" style="height: auto !important;">
+                <!-- Sponsors -->
+                <div class="sponsors-wrapper">
+                    <div class="container">
+                        <div class="sponsors">
+                            <ul class="sponsors-logos">
+                                <li class="sponsors__item">
+                                    <a href="https://bestfreehtmlcsstemplates.com/" target="_blank"><img src="images/bestfreehtmlcsstemplates.png" alt="Best Free HTML/CSS Templates"></a>
+                                </li>
+                                <li class="sponsors__item">
+                                    <a href="https://1.envato.market/n1JbM" target="_blank"><img src="images/logo-envato-market.png" alt="Envato Market"></a>
+                                </li>
+                                <li class="sponsors__item">
+                                    <a href="https://javascriptobfuscator.dev/" target="_blank"><img src="images/jsobfuscator.png" alt="Free Online JavaScript Obfuscator"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sponsors / End -->
+                <!-- Footer Widgets -->
+                <div class="footer-widgets effect-duotone effect-duotone--base" style="height: auto !important;"><div class="effect-duotone__layer"><div class="effect-duotone__layer-inner"></div></div>
+                    <div class="footer-widgets__inner" style="height: auto !important;">
+                        <div class="container" style="height: auto !important;">
+                            <div class="row" style="height: auto !important;">
+                                <div class="col-12 col-lg-6">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6 col-md-6">
+                                            <div class="footer-col-inner">
+                                                <aside class="widget widget--footer widget_nav_menu">
+                                                    <h4 class="widget__title">
+                                                        Our Code World
+
+                                                    </h4>
+                                                    <div class="widget__content">
+                                                        <p>Our Code World is a free blog about programming, where you will find solutions to simple and complex tasks of your daily life as a developer.
+</p>
+                                                        
+                                                            <div class="text-center">
+        <a href="http://bit.ly/OCWDOREFERRAL" target="_blank" rel="noopener noreferrer">
+            <img loading="lazy" src="images/digital-ocean-banner.png" alt="DigitalOcean Referral">
+        </a>
+    </div>
+
+                                                    </div>
+                                                </aside>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-sm-3 col-md-3">
+                                            <div class="footer-col-inner">
+                                                <aside class="widget widget--footer widget_nav_menu">
+                                                    <h4 class="widget__title">Legal
+</h4>
+                                                    <div class="widget__content">
+                                                        <ul class="widget__list">
+                                                            <li><a href="/privacy-policy">Privacy Policy
+</a></li>
+                                                            <li><a href="/comments-policy">Comment Policy
+</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </aside>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 col-sm-3 col-md-3">
+                                            <div class="footer-col-inner">
+                                                <!-- Widget: Pages -->
+                                                <aside class="widget widget--footer widget_pages">
+                                                    <h4 class="widget__title">About
+</h4>
+                                                    <div class="widget__content">
+                                                        <ul class="widget__list">
+                                                            <li><a href="/about">About
+</a></li>
+                                                            <li><a href="/advertise-with-us">Advertise with us
+</a></li>
+                                                            <li><a href="/authors">Authors
+</a></li>
+                                                            <li><a href="/contact">Contact us
+</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </aside>
+                                                <!-- Widget: Pages / End -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                                                <div class="col-sm-6 col-lg-3" style="height: auto !important;">
+                                    <div class="footer-col-inner" style="height: auto !important;">
+                                        <!-- Widget: Popular Posts / End -->
+                                        <div class="widget widget--footer widget-popular-posts" style="height: auto !important;">
+                                            <h4 class="widget__title">Advertising
+</h4>
+                                            <div class="widget__content">
+                                                        
+        
+        
+        
+                        <script async src="js/adsbygoogle.js"></script> <!-- OCW Quad --> <ins class="adsbygoogle" style="display: block; height: 250px;" data-ad-client="ca-pub-5670702528070068" data-ad-slot="1545890314" data-ad-format="rectangle" data-full-width-responsive="false" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:250px;margin:0;padding:0;position:relative;visibility:visible;width:330px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_1_anchor" style="display: block; border: none; height: 250px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 330px; background-color: transparent; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:330px;height:250px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="330" height="250" frameborder="0" src="ads_2.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!2" data-google-query-id="CMyy9O6KsPECFcaBwgodBF0Etg" data-load-complete="true"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                
+    
+                                            </div>
+                                        </div>
+                                        <!-- Widget: Popular Posts / End -->
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="footer-col-inner">
+                                        <!-- Widget: Popular Posts / End -->
+                                        <div class="widget widget--footer widget-popular-posts">
+                                            <h4 class="widget__title">&nbsp;</h4>
+                                            <div class="widget__content">
+                                                        
+        
+        
+        
+        
+                        <!-- Ads -->            
+                                            </div>
+                                        </div>
+                                        <!-- Widget: Popular Posts / End -->
+                                    </div>
+                                </div>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <div class="container">
+                        <ul class="footer-social__list list-unstyled">
+                            <li class="footer-social__item">
+                                <a href="https://www.facebook.com/ourcodeworld" class="footer-social__link"><span class="footer-social__icon"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-188v-595h199l30-232h-229v-148q0-56 23.5-84t91.5-28l122-1v-207q-63-9-178-9-136 0-217.5 80t-81.5 226v171h-200v232h200v595h-532q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960z"/></svg></span></span><div class="footer-social__txt"><span class="footer-social__name">Facebook</span> <span class="footer-social__user">/ourcodeworld</span></div></a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="https://twitter.com/ourcodeworld" class="footer-social__link"><span class="footer-social__icon"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></span></span><div class="footer-social__txt"><span class="footer-social__name">Twitter</span> <span class="footer-social__user">@ourcodeworld</span></div></a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="https://www.youtube.com/ourcodeworld?sub_confirmation=1" class="footer-social__link"><span class="footer-social__icon"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M711 1128l484-250-484-253v503zm185-862q168 0 324.5 4.5t229.5 9.5l73 4q1 0 17 1.5t23 3 23.5 4.5 28.5 8 28 13 31 19.5 29 26.5q6 6 15.5 18.5t29 58.5 26.5 101q8 64 12.5 136.5t5.5 113.5v176q1 145-18 290-7 55-25 99.5t-32 61.5l-14 17q-14 15-29 26.5t-31 19-28 12.5-28.5 8-24 4.5-23 3-16.5 1.5q-251 19-627 19-207-2-359.5-6.5t-200.5-7.5l-49-4-36-4q-36-5-54.5-10t-51-21-56.5-41q-6-6-15.5-18.5t-29-58.5-26.5-101q-8-64-12.5-136.5t-5.5-113.5v-176q-1-145 18-290 7-55 25-99.5t32-61.5l14-17q14-15 29-26.5t31-19.5 28-13 28.5-8 23.5-4.5 23-3 17-1.5q251-18 627-18z"/></svg></span></span><div class="footer-social__txt"><span class="footer-social__name">YouTube</span> <span class="footer-social__user">@ourcodeworld</span></div></a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="https://github.com/ourcodeworld" class="footer-social__link"><span class="footer-social__icon"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"/></svg></span></span><div class="footer-social__txt"><span class="footer-social__name">Github</span> <span class="footer-social__user">@ourcodeworld</span></div></a>
+                            </li>
+                            <li class="footer-social__item">
+                                <a href="https://www.instagram.com/ourcodeworld/" class="footer-social__link"><span class="footer-social__icon"><span class="fa-svg-icon"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1152 896q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm138 0q0 164-115 279t-279 115-279-115-115-279 115-279 279-115 279 115 115 279zm108-410q0 38-27 65t-65 27-65-27-27-65 27-65 65-27 65 27 27 65zm-502-220q-7 0-76.5-.5t-105.5 0-96.5 3-103 10-71.5 18.5q-50 20-88 58t-58 88q-11 29-18.5 71.5t-10 103-3 96.5 0 105.5.5 76.5-.5 76.5 0 105.5 3 96.5 10 103 18.5 71.5q20 50 58 88t88 58q29 11 71.5 18.5t103 10 96.5 3 105.5 0 76.5-.5 76.5.5 105.5 0 96.5-3 103-10 71.5-18.5q50-20 88-58t58-88q11-29 18.5-71.5t10-103 3-96.5 0-105.5-.5-76.5.5-76.5 0-105.5-3-96.5-10-103-18.5-71.5q-20-50-58-88t-88-58q-29-11-71.5-18.5t-103-10-96.5-3-105.5 0-76.5.5zm768 630q0 229-5 317-10 208-124 322t-322 124q-88 5-317 5t-317-5q-208-10-322-124t-124-322q-5-88-5-317t5-317q10-208 124-322t322-124q88-5 317-5t317 5q208 10 322 124t124 322q5 88 5 317z"/></svg></span></span><div class="footer-social__txt"><span class="footer-social__name">Instagram</span> <span class="footer-social__user">@ourcodeworld</span></div></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+                                        
+        
+            <script type="text/javascript">
+            (function () {
+                var bsa = document.createElement('script');
+                bsa.type = 'text/javascript';
+                bsa.async = true;
+                bsa.src = '//s3.buysellads.com/ac/bsa.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
+            })();
+        </script>
+        <script src="js/monetization.js" type="text/javascript"></script>
+        <script>
+            (function () {
+                if (typeof _bsa !== 'undefined' && _bsa) {
+                    _bsa.init('fancybar', 'CK7DK53I', 'placement:ourcodeworldcom');
+                }
+            })();
+        </script>
+        <style>
+            #_fbn_ > * {
+                transition: all .7s ease-in-out;
+            }
+            ._bsa_hide ._bsa_fancybar {
+                top: auto !important;
+                bottom: -100% !important;
+            }
+            ._bsa_show ._bsa_fancybar {
+                top: auto !important;
+                bottom: 0 !important;
+            }
+        </style>
+    
+                
+            <script src="js/jquery.marquee.min.js" defer></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js" defer></script>
+
+        <script src="js/lazyload.min.js" defer></script>
+
+    <script defer>
+        window.addEventListener('DOMContentLoaded', function() {
+            $(function () {
+                $('.article-innercard').matchHeight();
+
+                window.lazyFunctions = window.lazyFunctions || {};
+
+                var ll = new LazyLoad({
+                    unobserve_entered: true,
+                    callback_enter: function(element) {
+                        var lazyFunctionName = element.getAttribute(
+                            "data-lazy-function"
+                        );
+                        var lazyFunction = window.lazyFunctions[lazyFunctionName];
+                        if (!lazyFunction) return;
+                        lazyFunction(element);
+                    }
+                });
+            });
+        });
+    </script>
+    
+<iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_2_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="ads.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!3" data-load-complete="true"></iframe></ins></ins></ins><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe id="google_osd_static_frame_3812501931216" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe><iframe src="aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="zrt_lookup.html" style="display: none;"></iframe></html>

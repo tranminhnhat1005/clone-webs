@@ -1,0 +1,573 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<title>Thông tin ứng viên Đặng Thị Như Ý</title>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<link rel="stylesheet" href="css/select2.min.css">
+<link rel="stylesheet" href="css/select2-bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+<link rel="stylesheet" href="css/recruitment.css">
+<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+<style>
+        [v-cloak] {
+            display: none;
+        }
+        body {
+            background-color: #525659;
+            margin: 0;
+            font-family: Arial;
+        }
+        #header-viewer {
+            width: 100%;
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            background-color: rgba(0,0,0,0.5);
+            height: 50px;
+            z-index: 1000;
+            box-shadow: 0 0 4px rgba(0,0,0,0.6);
+        }
+        #header-viewer h1 {
+            float: left;
+            color: #ddd;
+            padding: 12px 0px 0px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0;
+        }
+        #view-candidate-root {
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+        #candidate-viewer-cv {
+            width: 820px;
+            float: left;
+        }
+        #iframe-view-candidate {
+            border: 0;
+            min-height: 500px;
+            width: 100%;
+            height: 100%;
+        }
+        #candidate-viewer-sidebar {
+            width: 315px;
+            float: left;
+            margin: 0 auto;
+            margin-left: 15px;
+        }
+        .overlay-wrapper {
+            width: 1200px;
+            min-height: 640px;
+            background-color: #fff;
+            margin: 3px auto;
+            border: 1px solid #e4e4e4;
+            padding: 20px;
+            position: relative;
+        }
+        .action-list {
+            margin-top: 10px;
+        }
+        .action-list .action {
+            display: block;
+            margin-bottom: 5px;
+            border-top: 1px dashed #dfdfdf;
+            padding: 7px 0;
+            position: relative;
+        }
+        a {
+            color: #555;
+        }
+        a:hover {
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modal-topcv .modal-dialog {
+            width: 400px;
+            margin: 30px auto;
+        }
+        .action-list .action > .fa {
+            margin-right: 6px;
+        }
+        .modal-topcv .modal-content {
+            border-radius: 3px;
+        }
+        .modal-topcv .modal-body {
+            padding-top: 35px;
+            text-align: center;
+        }
+        .modal-topcv i {
+            font-size: 40px;
+        }
+        .modal-topcv .modal-footer {
+            padding: 0;
+            text-align: center;
+        }
+        .modal-topcv .modal-footer button {
+            width: 100%;
+            padding: 15px;
+            border-radius: 0px 0px 2px 2px;
+        }
+        .btn-primary {
+            background-color: #E82F3A;
+            border: none;
+        }
+        .text-primary {
+            color: #E82F3A;
+        }
+        .btn-primary:hover, .btn-primary:focus {
+            background-color: #CB0C2A;
+            outline: none;
+        }
+        a:hover, a:focus {
+            text-decoration: none;
+            color: #E82F3A;
+            cursor: pointer;
+        }
+        .table-detail-info th {
+            background-color: #eee;
+        }
+        .modal-book-todo .loading {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #36A25E;"
+        }
+        .history-todo {
+            padding: 0px 15px 15px;
+        }
+        .history-todo .modal-header {
+            padding: 0px 0px 15px;
+        }
+        .history-todo .modal-header .modal-title {
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .history-todo .modal-body {
+            padding: 10px 0px 15px;
+            max-height: 250px;
+            overflow-y: auto;
+            border: 1px solid #e5e5e5;
+        }
+        .history-todo .modal-body .todo-date {
+            font-weight: bold;
+            color: #E82F3A;
+            padding: 5px 15px 0px;
+        }
+        .history-todo .todo-record {
+            padding: 3px 30px;
+        }
+        .history-todo .todo-record span:first-child {
+            font-weight: bold;
+            margin-right: 20px;
+        }
+    </style>
+<script type="text/javascript" async src="js/analytics.js"></script><script src="233180391698279" async></script><script src="2819838431593615" async></script><script src="303725870644513" async></script><script src="340337317003281" async></script><script src="571912357012221" async></script><script async src="js/fbevents.js"></script><script type="text/javascript" async src="js_2"></script><script type="text/javascript" async src="js/conversion_async.js"></script><script async src="js_1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'AW-823531084');
+	gtag('config', 'UA-55579411-6');
+</script>
+<script type="text/javascript">
+    var trackingQueue = []
+</script><script src="js/823531084.js"></script></head>
+<body>
+
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '571912357012221');
+    fbq('init', '340337317003281');
+    fbq('init', '303725870644513');
+    fbq('init', '2819838431593615');
+    fbq('init', '233180391698279');
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="tr"></noscript>
+
+<div id="header-viewer">
+<h1>Xem CV ứng viên <strong>Đặng Thị Như Ý</strong> | Vị trí Trình Dược Viên (Otc Và Pm) | 20:14 05/01/2021</h1>
+</div>
+<div id="view-candidate-root"><div class="overlay-wrapper"><div id="candidate-viewer-cv" style="height: 550px;"><!----> <iframe src="AQBvPGIIDX8AZ3p-VHlaIwBXZH.html" id="iframe-view-candidate" style></iframe></div> <div id="candidate-viewer-sidebar"><div id="candidate-viewer-sidebar-content"><div><div id="action-box"><table class="table table-bordered"><tbody><tr><th>Họ tên: </th> <td class="text-primary"><strong>Đặng Thị Như Ý</strong></td></tr> <tr><th>Điện thoại: </th> <td class="text-primary">0981815150</td></tr> <tr><th>Email: </th> <td>dangthinhuy221192@gmail.com</td></tr> <tr><th>Vòng: </th> <td>Lọc CV</td></tr> <tr><th>Trạng thái: </th> <td>Chưa đánh giá</td></tr> <tr><th>Nguồn: </th> <td>TopCV | Đăng tin</td></tr></tbody></table> <div class="action-list"><a href="#" class="action"><i aria-hidden="true" class="fa fas fa-sync-alt"></i> Đánh giá ứng viên
+</a> <a target="_blank" href="https://business.topcvconnect.com/conversations/new/3085595" class="action"><i aria-hidden="true" class="far fa-comment-alt"></i> Nhắn tin ứng viên <label class="label label-danger">Mới</label></a> <a href="#" class="action"><i aria-hidden="true" class="fa fas fa-file-alt"></i> Ghi chú về ứng viên
+</a> <a href="#" class="action"><i aria-hidden="true" class="fa fas fa-eye"></i> Thông tin ứng viên chi tiết
+</a> <a href="#" class="action"><i aria-hidden="true" class="fa fas fa-pencil-alt"></i> Cập nhật thông tin ứng viên
+</a> <a href="https://www.topcv.vn/download-cv?accessKey=e52ecee2ed1124a27cfece8c9d076e7e&amp;applyId=AQBvPGIIDX8AZ3p-VHlaIwBXZH" id="btn-download-candidate" target="_blank" download class="action"><i class="fa fa-download"></i> Tải CV PDF
+</a></div></div></div> <div style="display: none;"><div id="section-edit-candidate" style="position: relative;"><form id="form-update-candidate" class="form-horizontal"><input type="hidden" name="_token" value="olFPNxgxiOmAvfZMuVi2vH3PQ31uDDIEmCnClPnO"> <div class="form-group"><label class="col-sm-4 control-label">Họ tên: <span class="text-danger">(*)</span></label> <div class="col-sm-8 no-padding-right"><input id="test" type="text" placeholder="Họ tên" name="fullname" class="form-control"></div></div> <div class="form-group"><label class="col-sm-4 control-label">Email: </label> <div class="col-sm-8 no-padding-right"><input type="email" placeholder="Email" name="email" class="form-control"></div></div> <div class="form-group"><label class="col-sm-4 control-label">Điện thoại: </label> <div class="col-sm-8 no-padding-right"><input type="text" placeholder="Số điện thoại" name="phone" class="form-control"></div></div> <div class="form-group"><label for class="col-sm-4 control-label">Nguồn: <span class="text-danger">(*)</span></label> <div class="col-sm-8 no-padding-right"><input type="text" disabled="disabled" class="form-control"></div></div> <div class="form-group"><label class="col-sm-4 control-label">Quê quán: </label> <div class="col-sm-8 no-padding-right"><select name="city_id" class="form-control city-selector select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true"><option value="1">Hà Nội</option> <option value="2">Hồ Chí Minh</option> <option value="3">Bình Dương</option> <option value="4">Bắc Ninh</option> <option value="5">Đồng Nai</option> <option value="6">Hưng Yên</option> <option value="7">Hải Dương</option> <option value="8">Đà Nẵng</option> <option value="9">Hải Phòng</option> <option value="10">An Giang</option> <option value="11">Bà Rịa-Vũng Tàu</option> <option value="12">Bắc Giang</option> <option value="13">Bắc Kạn</option> <option value="14">Bạc Liêu</option> <option value="15">Bến Tre</option> <option value="16">Bình Định</option> <option value="17">Bình Phước</option> <option value="18">Bình Thuận</option> <option value="19">Cà Mau</option> <option value="20">Cần Thơ</option> <option value="21">Cao Bằng</option> <option value="22">Cửu Long</option> <option value="23">Đắc Lắc</option> <option value="24">Đắc Nông</option> <option value="25">Điện Biên</option> <option value="26">Đồng Tháp</option> <option value="27">Gia Lai</option> <option value="28">Hà Giang</option> <option value="29">Hà Nam</option> <option value="30">Hà Tĩnh</option> <option value="31">Hậu Giang</option> <option value="32">Hoà Bình</option> <option value="33">Khánh Hoà</option> <option value="34">Kiên Giang</option> <option value="35">Kon Tum</option> <option value="36">Lai Châu</option> <option value="37">Lâm Đồng</option> <option value="38">Lạng Sơn</option> <option value="39">Lào Cai</option> <option value="40">Long An</option> <option value="41">Miền Bắc</option> <option value="42">Miền Nam</option> <option value="43">Miền Trung</option> <option value="44">Nam Định</option> <option value="45">Nghệ An</option> <option value="46">Ninh Bình</option> <option value="47">Ninh Thuận</option> <option value="48">Phú Thọ</option> <option value="49">Phú Yên</option> <option value="50">Quảng Bình</option> <option value="51">Quảng Nam</option> <option value="52">Quảng Ngãi</option> <option value="53">Quảng Ninh</option> <option value="54">Quảng Trị</option> <option value="55">Sóc Trăng</option> <option value="56">Sơn La</option> <option value="57">Tây Ninh</option> <option value="58">Thái Bình</option> <option value="59">Thái Nguyên</option> <option value="60">Thanh Hoá</option> <option value="61">Thừa Thiên Huế</option> <option value="62">Tiền Giang</option> <option value="63">Toàn Quốc</option> <option value="64">Trà Vinh</option> <option value="65">Tuyên Quang</option> <option value="66">Vĩnh Long</option> <option value="67">Vĩnh Phúc</option> <option value="68">Yên Bái</option> <option value="100">Nước Ngoài</option></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-city_id-j6-container"><span class="select2-selection__rendered" id="select2-city_id-j6-container"><span class="select2-selection__placeholder">-- Lựa chọn --</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div></div> <div class="form-group"><label class="col-sm-4 control-label">Năm sinh: </label> <div class="col-sm-8 no-padding-right"><select name="year_of_birth" class="form-control birth-year-selector select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true"><option value="1963">1963</option> <option value="1964">1964</option> <option value="1965">1965</option> <option value="1966">1966</option> <option value="1967">1967</option> <option value="1968">1968</option> <option value="1969">1969</option> <option value="1970">1970</option> <option value="1971">1971</option> <option value="1972">1972</option> <option value="1973">1973</option> <option value="1974">1974</option> <option value="1975">1975</option> <option value="1976">1976</option> <option value="1977">1977</option> <option value="1978">1978</option> <option value="1979">1979</option> <option value="1980">1980</option> <option value="1981">1981</option> <option value="1982">1982</option> <option value="1983">1983</option> <option value="1984">1984</option> <option value="1985">1985</option> <option value="1986">1986</option> <option value="1987">1987</option> <option value="1988">1988</option> <option value="1989">1989</option> <option value="1990">1990</option> <option value="1991">1991</option> <option value="1992">1992</option> <option value="1993">1993</option> <option value="1994">1994</option> <option value="1995">1995</option> <option value="1996">1996</option> <option value="1997">1997</option> <option value="1998">1998</option> <option value="1999">1999</option> <option value="2000">2000</option> <option value="2001">2001</option> <option value="2002">2002</option> <option value="2003">2003</option> <option value="2004">2004</option> <option value="2005">2005</option></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-year_of_birth-a8-container"><span class="select2-selection__rendered" id="select2-year_of_birth-a8-container" title="1963"><span class="select2-selection__placeholder">-- Lựa chọn --</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div></div> <div class="form-group"><label class="col-sm-4 control-label">Kinh nghiệm: </label> <div class="col-sm-8 no-padding-right"><select name="year_of_experience" class="form-control exp-year-selector select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true"><option value>-- Lựa chọn --</option> <option value="0">Chưa có kinh nghiệm</option> <option value="1">1 năm</option> <option value="2">2 năm</option> <option value="3">3 năm</option> <option value="4">4 năm</option> <option value="5">5 năm</option> <option value="6">6 năm</option> <option value="7">7 năm</option> <option value="8">8 năm</option> <option value="9">9 năm</option> <option value="10">10 năm</option> <option value="11">11 năm</option> <option value="12">12 năm</option> <option value="13">13 năm</option> <option value="14">14 năm</option> <option value="15">15 năm</option> <option value="16">16 năm</option> <option value="17">17 năm</option> <option value="18">18 năm</option> <option value="19">19 năm</option> <option value="20">20 năm</option></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-year_of_experience-qa-container"><span class="select2-selection__rendered" id="select2-year_of_experience-qa-container"><span class="select2-selection__placeholder">-- Lựa chọn --</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div></div> <div class="form-group"><label class="col-sm-4 control-label">Giới tính: </label> <div class="col-sm-8 no-padding-right"><select name="gender" class="form-control gender-selector select2-hidden-accessible" style="width: 100%;" tabindex="-1" aria-hidden="true"><option value="1">Nữ</option> <option value="2">Nam</option></select><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-gender-b0-container"><span class="select2-selection__rendered" id="select2-gender-b0-container" title="Nữ"><span class="select2-selection__placeholder">-- Lựa chọn --</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span></div></div> <div class="form-group"><label class="col-sm-4 control-label">Địa chỉ: </label> <div class="col-sm-8 no-padding-right"><input type="text" name="address" placeholder="Địa chỉ nơi ở hiện tại" class="form-control"></div></div> <div class="form-group"><label class="col-sm-4 control-label">Cty gần nhất: </label> <div class="col-sm-8 no-padding-right"><input type="text" name="last_company" placeholder="Tên công ty" class="form-control"></div></div> <input type="hidden" name="cv_record_id" value="AlZtPTEKDXhaYit4V2lsdwB3tG"> <input type="hidden" name="signature" value="6a2c0961596f9d82da0148f82179240b"></form> <div class="row" style="margin-top: 20px;"><div class="col-sm-8 col-sm-offset-4"><a href="#" class="btn btn-primary">Cập nhật</a> <a href="#" class="btn btn-default">Quay lại</a></div></div></div></div></div></div> <div class="clearfix"></div></div> <div tabindex="-1" role="dialog" id="modal-change-status" data-keyboard="false" data-backdrop="static" class="modal fade"><div role="document" class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">Đánh giá ứng viên</h4></div> <div class="modal-body"><div class="form-horizontal"><form id="form-change-status"><input type="hidden" name="_token" value="olFPNxgxiOmAvfZMuVi2vH3PQ31uDDIEmCnClPnO"> <div class="form-group"><label for class="control-label col-xs-3">Tên ứng viên:</label> <div class="col-xs-9 form-control-static">Đặng Thị Như Ý</div></div> <div class="form-group"><label for class="control-label col-xs-3">Trạng thái:</label> <div class="col-xs-9"><select name="step_status" id="change-status-selector" class="form-control" style="width: 100%;"><option value>-- Chọn trạng thái --</option> <optgroup label="Lọc CV"><option value="1,289334">Chưa đánh giá</option><option value="2,289334">Đạt yêu cầu</option><option value="3,289334">Không đạt yêu cầu</option></optgroup><optgroup label="Phỏng vấn"><option value="301,289335">Chưa liên hệ</option><option value="302,289335">Không liên hệ được</option><option value="303,289335">Đồng ý phỏng vấn</option><option value="304,289335">Từ chối phỏng vấn</option><option value="305,289335">Đến phỏng vấn</option><option value="306,289335">Không đến phỏng vấn</option><option value="307,289335">Lùi lịch phỏng vấn</option><option value="308,289335">Đạt phỏng vấn</option><option value="309,289335">Không đạt phỏng vấn</option></optgroup><optgroup label="Nhận việc"><option value="401,289336">Đã thông báo kết quả</option><option value="402,289336">Đã đến nhận việc</option><option value="403,289336">Từ chối nhận việc</option></optgroup></select></div></div> <div class="form-group"><label for class="control-label col-xs-3">Ghi chú:</label> <div class="col-xs-9"><textarea name="note" id rows="5" placeholder="Thêm ghi chú" class="form-control"></textarea></div></div> <input type="hidden" name="cv_record_id" value="AlZtPTEKDXhaYit4V2lsdwB3tG"> <input type="hidden" name="signature" value="6a2c0961596f9d82da0148f82179240b"></form></div></div> <div class="modal-footer"><button type="submit" class="btn btn-primary">Cập nhật</button> <button type="button" data-dismiss="modal" class="btn btn-default">Hủy</button></div></div></div></div> <div tabindex="-1" role="dialog" id="modal-update-note" data-keyboard="false" data-backdrop="static" class="modal fade"><div role="document" class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">Ghi chú cho ứng viên Đặng Thị Như Ý</h4></div> <div class="modal-body"><form action id="form-update-note" method="POST"><input type="hidden" name="_token" value="olFPNxgxiOmAvfZMuVi2vH3PQ31uDDIEmCnClPnO"> <input type="hidden" name="cv_record_id" value="AlZtPTEKDXhaYit4V2lsdwB3tG"> <input type="hidden" name="signature" value="6a2c0961596f9d82da0148f82179240b"> <textarea name="note" id rows="5" placeholder="Thêm ghi chú" class="form-control"></textarea></form></div> <div class="modal-footer"><button type="submit" class="btn btn-primary">Cập nhật</button> <button type="button" data-dismiss="modal" class="btn btn-default">Hủy</button></div></div></div></div> <div tabindex="-1" role="dialog" id="modal-detail-candidate" data-keyboard="false" data-backdrop="static" class="modal fade"><div role="document" class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-header"><button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true">×</span></button> <h4 class="modal-title">Thông tin chi tiết ứng viên Đặng Thị Như Ý</h4></div> <div class="modal-body"><div class="row"><div class="col-sm-6"><table class="table table-bordered table-detail-info"><tbody><tr><th>Họ tên</th> <td>Đặng Thị Như Ý</td></tr> <tr><th>Email</th> <td>dangthinhuy221192@gmail.com</td></tr> <tr><th>Số điện thoại</th> <td>0981815150</td></tr> <tr><th>Năm sinh</th> <td><i>Chưa cập nhật</i></td></tr> <tr><th>Năm kinh nghiệm</th> <td><i>Chưa cập nhật</i></td></tr> <tr><th>Giới tính</th> <td><i>Chưa cập nhật</i></td></tr></tbody></table></div> <div class="col-sm-6"><table class="table table-bordered table-detail-info"><tbody><tr><th>Nguồn</th> <td>TopCV | Đăng tin</td></tr> <tr><th>Địa chỉ</th> <td><i>Chưa cập nhật</i></td></tr> <tr><th>Quê quán</th> <td><i>Chưa cập nhật</i></td></tr> <tr><th>Công ty làm gần nhất</th> <td><i>Chưa cập nhật</i></td></tr> <tr><th>Ghi chú</th> <td><i>Chưa cập nhật</i></td></tr></tbody></table></div></div></div> <div class="modal-footer"><button type="button" data-dismiss="modal" class="btn btn-default">Đóng</button></div></div></div></div></div>
+<div class="modal modal-topcv fade" tabindex="-1" role="dialog" id="modal-error">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<i class="fa fa-exclamation-triangle text-primary"></i>
+<p style="margin: 10px auto 20px; font-size: 20px; font-weight: bold;">Đã có lỗi xảy ra</p>
+<p id="modal-error-message"></p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary" data-dismiss="modal">Đóng lại</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal modal-topcv fade" tabindex="-1" role="dialog" id="modal-success">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<i class="fa fa-check-circle text-success"></i>
+<p style="margin: 10px auto 20px; font-size: 20px; font-weight: bold;">Thành công</p>
+<p id="modal-success-message"></p>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-success" data-dismiss="modal">Đóng lại</button>
+</div>
+</div>
+</div>
+</div>
+<div class="modal fade" tabindex="-1" role="dialog" id="modal-info">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title">Thông báo</h4>
+</div>
+<div class="modal-body">
+<p id="modal-info-message"></p>
+</div>
+<div class="modal-footer">
+<div class="pull-right">
+<button type="button" class="btn btn-primary" data-dismiss="modal">Đóng lại</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal modal-topcv fade" tabindex="-1" role="dialog" id="vipContactModal">
+<div class="modal-dialog" action="#" style="width: 480px; max-width: 100%;">
+<div class="modal-content">
+<div class="modal-body text-center">
+<div style="margin-bottom: 15px; font-size: 18px;">Các tính năng dành cho Tài khoản VIP</div>
+<div class="text-left" style="border: 1px dashed #ccc;padding: 10px;margin-bottom: 20px;">
+<div><i class="fa fa-check-circle-o topcv-color" style="font-size: 18px;"></i> Tìm kiếm ứng viên theo công ty đã làm.</div>
+<div><i class="fa fa-check-circle-o topcv-color" style="font-size: 18px;"></i> Tìm kiếm ứng viên theo trình độ ngoại ngữ <em>(Anh/Nhật/Trung)</em>.</div>
+<div><i class="fa fa-check-circle-o topcv-color" style="font-size: 18px;"></i> Tìm kiếm theo ngôn ngữ CV <em>(Việt/Anh/Nhật)</em>.</div>
+<div><i class="fa fa-check-circle-o topcv-color" style="font-size: 18px;"></i> Xem thông tin Facebook của ứng viên.</div>
+</div>
+<div class="text-left" style="color: red">* Điều kiện để nâng cấp lên Tài khoản VIP : <br>Khách hàng mua ít nhất <strong>1000 Credit</strong> để tìm kiếm trên TopCV</div>
+<hr>
+<div class="contact-point" style="font-size: 15px;">
+<h4>Liên hệ đăng ký</h4>
+<p>
+Hotline CSKH: <br>
+<span class="text-bold text-primary">(024) 7107 9799</span> - <span class="text-bold text-primary">0862 69 19 29</span>
+</p>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary" data-dismiss="modal">Đóng</button>
+</div>
+</div>
+</div>
+</div>
+
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/select2.full.min.js"></script>
+<script src="js/vi.js"></script>
+<script src="js/common.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/tracking.js"></script>
+<script src="js/tracking_handlers.js"></script>
+<script>
+        var overlayCandidate = new Vue({
+            el: '#view-candidate-root',
+            data: {
+                listHandler: null,
+                ajaxLock: false,
+                candidate: {"id":2946480,"user_id":3085595,"can_chat":true,"iframe_access_url":"https:\/\/www.topcv.vn\/cv-ung-tuyen\/e52ecee2ed1124a27cfece8c9d076e7e\/AQBvPGIIDX8AZ3p-VHlaIwBXZH?epl-token=08216df0dfa88c670a0e9544f0a10fc4&iframe=true","download_url":"https:\/\/www.topcv.vn\/download-cv?accessKey=e52ecee2ed1124a27cfece8c9d076e7e&applyId=AQBvPGIIDX8AZ3p-VHlaIwBXZH","fullname":"\u0110\u1eb7ng Th\u1ecb Nh\u01b0 \u00dd","email":"dangthinhuy221192@gmail.com","phone":"0981815150","status":1,"status_str":"Ch\u01b0a \u0111\u00e1nh gi\u00e1","source":1,"source_str":"TopCV | \u0110\u0103ng tin","code":"142579730465c35496cd17c1ad41fdc7","step_id":289334,"position_id":96432,"position_name":"Tr\u00ecnh d\u01b0\u1ee3c vi\u00ean (OTC v\u00e0 PM)","cv_record_created_at":"20:14 05\/01\/2021","step_str":"L\u1ecdc CV","note":null,"year_of_experience":null,"year_of_birth":null,"gender":null,"address":null,"city_id":null,"city_name":"","last_company":null,"year_of_experience_str":"","anonymous_url":"https:\/\/tuyendung.topcv.vn\/quy-trinh-tuyen-dung\/xem-ung-vien?id=AlZtPTEKDXhaYit4V2lsdwB3tG&signature=6a2c0961596f9d82da0148f82179240b","candidate_todo_records":[],"last_todo_record":[],"job_name":"Tr\u00ecnh D\u01b0\u1ee3c Vi\u00ean (Otc V\u00e0 Pm)"},
+                iframeLoading: true,
+                iframeRefreshIntervalId: null,
+                section: 'info',
+                stepRecords: [{"title":"L\u1ecdc CV","step_id":289334,"status":{"1":"Ch\u01b0a \u0111\u00e1nh gi\u00e1","2":"\u0110\u1ea1t y\u00eau c\u1ea7u","3":"Kh\u00f4ng \u0111\u1ea1t y\u00eau c\u1ea7u"}},{"title":"Ph\u1ecfng v\u1ea5n","step_id":289335,"status":{"301":"Ch\u01b0a li\u00ean h\u1ec7","302":"Kh\u00f4ng li\u00ean h\u1ec7 \u0111\u01b0\u1ee3c","303":"\u0110\u1ed3ng \u00fd ph\u1ecfng v\u1ea5n","304":"T\u1eeb ch\u1ed1i ph\u1ecfng v\u1ea5n","305":"\u0110\u1ebfn ph\u1ecfng v\u1ea5n","306":"Kh\u00f4ng \u0111\u1ebfn ph\u1ecfng v\u1ea5n","307":"L\u00f9i l\u1ecbch ph\u1ecfng v\u1ea5n","308":"\u0110\u1ea1t ph\u1ecfng v\u1ea5n","309":"Kh\u00f4ng \u0111\u1ea1t ph\u1ecfng v\u1ea5n"}},{"title":"Nh\u1eadn vi\u1ec7c","step_id":289336,"status":{"401":"\u0110\u00e3 th\u00f4ng b\u00e1o k\u1ebft qu\u1ea3","402":"\u0110\u00e3 \u0111\u1ebfn nh\u1eadn vi\u1ec7c","403":"T\u1eeb ch\u1ed1i nh\u1eadn vi\u1ec7c"}}],
+            },
+            created: function () {
+                var hasCandidate = Object.keys(this.candidate).length > 0;
+                if (hasCandidate && this.candidate.iframe_access_url.indexOf('docs.google.com') > 0) {
+                    this.startIframeRefresHInterval();
+                }
+            },
+            methods: {
+                clearIframeRefreshInterval: function () {
+                    if (this.iframeRefreshIntervalId != null) {
+                        clearInterval(this.iframeRefreshIntervalId);
+                    }
+                    this.iframeRefreshIntervalId = null;
+                    console.log('CLEAR IframeRefreshInterval');
+                },
+                startIframeRefresHInterval: function () {
+                    console.log('START IframeRefreshInterval');
+                    this.iframeRefreshIntervalId = setInterval(function () {
+                        var iframe = document.getElementById("iframe-view-candidate");
+                        iframe.src = iframe.src;
+                        console.log('Refreshed iframe: ' + iframe.src);
+                    }, 3000);
+                },
+                hasIframeRefreshInterval: function () {
+                    return this.iframeRefreshIntervalId != null;
+                },
+                onIframeLoaded: function () {
+                    this.iframeLoading = false;
+                    resizeCandiadateViewerCV();
+                    if (this.hasIframeRefreshInterval()) {
+                        this.clearIframeRefreshInterval();
+                    }
+                },
+                showModalChangeStatus: function () {
+                    $('#modal-change-status').modal('show');
+                },
+                submitChangeStatus: function () {
+                    if (overlayCandidate.ajaxLock == true) return false;
+                    var formData = new FormData($('#form-change-status')[0]);
+                    $.ajax({
+                        url: 'https://tuyendung.topcv.vn/quy-trinh-tuyen-dung/anonymous-cap-nhat-trang-thai-cv',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        beforeSend: function () {
+                            overlayCandidate.ajaxLock = true;
+                        }
+                    })
+                    .done(function(response) {
+                        if (response.status == 'success') {
+                            overlayCandidate.candidate = response.candidate;
+                            overlayCandidate.$forceUpdate();
+                            showModalSuccess('Cập nhật trạng thái ứng viên thành công');
+                        } else {
+                            showModalError(response.message);
+                        }
+                    })
+                    .fail(function() {
+                        console.log("error");
+                    })
+                    .always(function() {
+                        $('#modal-change-status').modal('hide');
+                        overlayCandidate.ajaxLock = false;
+                    });
+                },
+                showModalUpdateNote: function () {
+                    $('#modal-update-note').modal('show');
+                },
+                submitUpdateNote: function () {
+                    if (overlayCandidate.ajaxLock) return;
+                    var formData = new FormData($('#form-update-note')[0]);
+                    $.ajax({
+                        url: 'https://tuyendung.topcv.vn/quy-trinh-tuyen-dung/anonymous-cap-nhat-ghi-chu',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        beforeSend: function () {
+                            overlayCandidate.ajaxLock = true;
+                        }
+                    })
+                    .done(function(response) {
+                        if (response.status == 'success') {
+                            showModalSuccess('Cập nhật ghi chú ứng viên thành công');
+                            overlayCandidate.candidate = response.candidate;
+                        } else {
+                            showModalError(response.message);
+                        }
+                    })
+                    .fail(function() {
+                        console.log("error");
+                    })
+                    .always(function() {
+                        $('#modal-update-note').modal('hide');
+                        overlayCandidate.ajaxLock = false;
+                    });
+                },
+                showModalDetail: function () {
+                    $('#modal-detail-candidate').modal('show');
+                },
+                showSectionUpdate: function () {
+                    this.section = 'edit';
+                },
+                showSuggestUpdate: function () {
+                    $('#modal-suggest-update').modal('show');
+                },
+                hideSectionUpdate: function () {
+                    this.section = 'info';
+                },
+                submitUpdate: function () {
+                    if (overlayCandidate.ajaxLock) return;
+                    var formData = new FormData($('#form-update-candidate')[0]);
+                    var fullname = $('#form-update-candidate input[name=fullname]').val().trim();
+                    if (!fullname.length) {
+                        showModalError('Tên ứng viên không được trống');
+                        return false;
+                    }
+                    if ($('#form-update-candidate select[name=source]').length) {
+                        var source = $('#form-update-candidate select[name=source]').val();
+                        if (!source) {
+                            showModalError('Nguồn ứng viên không được trống');
+                            return false;
+                        }
+                    }
+
+                    $.ajax({
+                        url: 'https://tuyendung.topcv.vn/quy-trinh-tuyen-dung/anonymous-cap-nhat-cv',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        beforeSend: function () {
+                            overlayCandidate.ajaxLock = true;
+                        }
+                    })
+                    .done(function(response) {
+                        if (response.status == 'success') {
+                            showModalSuccess('Cập nhật thông tin ứng viên thành công');
+                            overlayCandidate.candidate = response.candidate;
+                        } else {
+                            showModalError(response.message);
+                        }
+                    })
+                    .fail(function() {
+                        console.log("error");
+                    })
+                    .always(function() {
+                        overlayCandidate.ajaxLock = false;
+                    });
+                },
+                showModalCreateTodo: function () {
+                    $('#form-create-todo #type').val('').trigger('change');
+                    $("#form-create-todo .date").val(moment(new Date).format('DD/MM/YYYY'));
+                    $("#form-create-todo #from_hour").val('09:00');
+                    $("#form-create-todo #to_hour").val('10:00');
+                    $('#form-create-todo #recruitment_cv_note').html(this.candidate.note);
+
+                    $('#modal-create-todo').modal('show');
+                },
+                submitCreateTodo: function () {
+                    if (overlayCandidate.createTodoValidate()) return false;
+                    if (overlayCandidate.ajaxLock == true) return false;
+                    $('.loading').css('display', 'flex');
+                    var formData = new FormData($('#form-create-todo')[0]);
+                    $.ajax({
+                        url: 'https://tuyendung.topcv.vn/quy-trinh-tuyen-dung/ajax-dat-lich-lam-viec',
+                        type: 'POST',
+                        data: formData,
+                        processData: false,
+                        contentType: false,
+                        beforeSend: function () {
+                            overlayCandidate.ajaxLock = false;
+                        }
+                    })
+                    .done(function(response) {
+                        if (response.status == 'success') {
+                            overlayCandidate.candidate.candidate_todo_records = response.cvRecord.cv_todo_records;
+                            overlayCandidate.$forceUpdate();
+                            $('#modal-create-todo').modal('hide');
+                            showModalSuccess('Đặt lịch hẹn ứng viên thành công');
+                        } else {
+                            showModalError(response.message);
+                        }
+                    })
+                    .fail(function() {
+                        showModalError('Đã có lỗi xảy ra. Vui lòng liên hệ với quản trị hệ thống');
+                    })
+                    .always(function() {
+                        $('.loading').hide();
+                        overlayCandidate.ajaxLock = false;
+                    });
+                },
+                createTodoValidate: function () {
+                    if (!$('#form-create-todo input[name=recruitment_position_id]').val()) {
+                        showModalError('Mã vị trí không được để trống');
+                        return true;
+                    }
+                    if (!$('#form-create-todo input[name=cv_record_id]').val()) {
+                        showModalError('Mã ứng viên không được để trống');
+                        return true;
+                    }
+                    if (!$('#form-create-todo select[name=type]').val()) {
+                        showModalError('Loại lịch không được để trống');
+                        return true;
+                    }
+                    if (!$('#form-create-todo input[name=date]').val()) {
+                        showModalError('Ngày đặt lịch không được để trống');
+                        return true;
+                    }
+                    if (!$('#form-create-todo input[name=from_hour]').val()) {
+                        showModalError('Thời gian bắt đầu đặt lịch hẹn ứng viên không được để trống');
+                        return true;
+                    }
+                    if (!$('#form-create-todo input[name=to_hour]').val()) {
+                        showModalError('Thời gian kết thúc đặt lịch hẹn ứng viên không được để trống');
+                        return true;
+                    }
+                    return false;
+                },
+            },
+            mounted: function () {
+                $('#overlay-view-candidate').show();
+                $('#form-update-candidate .birth-year-selector').select2({
+                    placeholder: '-- Lựa chọn --',
+                    allowClear: true,
+                    dropdownParent: $("#form-update-candidate"),
+                }).val(this.candidate.year_of_birth).trigger('change');
+                $('#form-update-candidate .exp-year-selector').select2({
+                    placeholder: '-- Lựa chọn --',
+                    allowClear: true,
+                    dropdownParent: $("#form-update-candidate"),
+                }).val(this.candidate.year_of_experience).trigger('change');
+                $('#form-update-candidate .gender-selector').select2({
+                    placeholder: '-- Lựa chọn --',
+                    minimumResultsForSearch: -1,
+                    dropdownParent: $("#form-update-candidate"),
+                }).val(this.candidate.gender).trigger('change');
+                $('#form-update-candidate .city-selector').select2({
+                    placeholder: '-- Lựa chọn --',
+                    allowClear: true,
+                    dropdownParent: $("#form-update-candidate"),
+                }).val(this.candidate.city_id).trigger('change');
+                $('#form-update-candidate .source-selector').select2({
+                    placeholder: '-- Lựa chọn --',
+                    allowClear: true,
+                    dropdownParent: $("#source-selector-wrapper"),
+                }).val(this.candidate.source).trigger('change');
+                $('#form-create-todo .date').datetimepicker({
+                    format: 'DD/MM/YYYY',
+                });
+                $('#form-create-todo .hour').datetimepicker({
+                    format: 'HH:mm',
+                });
+            }
+        });
+        function resizeCandiadateViewerCV()
+        {
+            var height = $(window).height() - 50;
+            $('#candidate-viewer-cv').height(height);
+        }
+    </script>
+
+
+</body></html>
